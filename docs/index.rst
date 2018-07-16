@@ -29,6 +29,7 @@ To get started with this service, go to :doc:`group_getting_started/getting_star
    :caption: Quick Starts
 
    group_quick_starts/qs_mqtt
+   group_quick_starts/qs_microgateway
 
 .. _integration-guides:
 .. toctree::
