@@ -25,7 +25,7 @@ To get started with this service, go to :doc:`group_getting_started/getting_star
 
 .. _quick-starts:
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Quick Starts
 
    group_quick_starts/qs_mqtt
