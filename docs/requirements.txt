@@ -1,3 +1,7 @@
+# New Tornados error out on older Pythons
+tornado<5.0
+
+# Build dependencies
 sphinx
 sphinx-autobuild
 sphinxcontrib-mermaid
