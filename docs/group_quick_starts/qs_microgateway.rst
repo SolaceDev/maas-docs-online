@@ -10,9 +10,11 @@ To get started on this exercise, you need docker (18.03 and up) and docker-compo
 
 Copy and paste this line to your terminaL:
 
-.. code-block:: docker
 
-   wget https://gist.githubusercontent.com/tzoght/281052e24d463eb182b5534ba4dd55e8/raw/f284a08e857f6fba78f5d01ff47bd5daf73237b6/singleNode.yml && docker-compose -f ./singleNode.yml up
+Run::
+
+     wget https://gist.githubusercontent.com/tzoght/281052e24d463eb182b5534ba4dd55e8/raw/f284a08e857f6fba78f5d01ff47bd5daf73237b6/singleNode.yml
+     && docker-compose -f ./singleNode.yml up
 
 
 

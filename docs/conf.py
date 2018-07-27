@@ -19,9 +19,9 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = u'Solace Cloud Getting Started'
-copyright = u'2018, Tony Zoght'
-author = u'Tony Zoght'
+project = u'Solace Cloud Docs'
+copyright = u'2018, Solace'
+author = u'Solace Cloud'
 
 # The short X.Y version
 version = u''
@@ -75,6 +75,7 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
+html_show_sourcelink = False
 # html_static_path = ['_static']
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_logo = 'img/logo2.png'

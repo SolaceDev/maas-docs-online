@@ -1,7 +1,7 @@
 
-
+####################################
 Welcome to Solace Cloud Docs Portal
-====================================
+####################################
 
 Solace PubSub+ Cloud is a managed Solace PubSub+ enterprise-grade service in the cloud.
 
