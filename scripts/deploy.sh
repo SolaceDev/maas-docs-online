@@ -36,29 +36,34 @@ if [[ -z `which virtualenv` ]]; then
   exit 1
 fi
 
+echo "Creating Python virtual environment"
 virtualenv .venv_deploy
 source ./.venv_deploy/bin/activate
+
+echo "Installing deployment requirements"
 pip install -r requirements.txt
 
-# Normalize build dir
-pushd "$(dirname "$0")/$BUILDDIR" > /dev/null
-BUILDDIR_REAL=`pwd`
-popd > /dev/null
-
-# Normalized push to docs directory
-echo "$(dirname "$0")/$DOCSDIR"
-pushd "$(dirname "$0")/$DOCSDIR"
-
-pip install -r requirements.txt
-
-echo "Creating build target"
+echo "Creating build directory"
 mkdir -p $BUILDDIR
 
-echo "Creating document build"
+# Normalize build dir
+echo "Resolving build directory"
+pushd "$(dirname '$0')/$BUILDDIR" > /dev/null
+BUILDDIR_REAL=`pwd`
+popd > /dev/null
+echo "Resolved build directory: $BUILDDIR -> $BUILDDIR_REAL"
+
+# Normalized push to docs directory
+echo "Installing docs build dependencies"
+pushd "$(dirname '$0')/$DOCSDIR"
+pip install -r requirements.txt
+
+echo "Building docs"
 BUILDDIR=$BUILDDIR_REAL make html
 
 popd > /dev/null
 
+echo "Synchronizing remote"
 cd $BUILDDIR/html
 sftpclone --logging=DEBUG -p2222 . "$SFTP_USER:$SFTP_PASSWORD@$SFTP_HOST:$SFTP_SYNC_ROOT"
 
