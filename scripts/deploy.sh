@@ -13,11 +13,16 @@
 # Username: solacecloud-LearnDirStaging
 # Password: (omitted)
 
-SFTP_USER="${SFTP_USER:-solacecloud-LearnDirStaging}"
-SFTP_HOST="${SFTP_HOST:-solacecloud.sftp.wpengine.com}"
-SFTP_SYNC_ROOT="${SFTP_SYNC_ROOT:-/}"
 BUILDDIR="${BUILDDIR:-../target}"
 DOCSDIR="${DOCSDIR:-../docs}"
+
+SFTP_USER="${SFTP_USER:-solacecloud-LearnDirStaging}"
+SFTP_HOST="${SFTP_HOST:-solacecloud.sftp.wpengine.com}"
+SFTP_PORT="${SFTP_PORT:-2222}"
+SFTP_SYNC_ROOT="${SFTP_SYNC_ROOT:-/}"
+SFTP_DISABLE_KNOWN_HOSTS_CHECKING=-d
+SFTP_LOGGING=--logging=DEBUG
+
 
 # Check environment
 if [ -z "${SFTP_PASSWORD-}" ]; then
@@ -63,7 +68,7 @@ BUILDDIR=$BUILDDIR_REAL make html
 
 popd > /dev/null
 
-echo "Synchronizing remote"
-cd $BUILDDIR/html
-sftpclone --logging=DEBUG -p2222 . "$SFTP_USER:$SFTP_PASSWORD@$SFTP_HOST:$SFTP_SYNC_ROOT"
+SYNC_LOCAL="$BUILDDIR_REAL/html"
+echo "Synchronizing $SYNC_LOCAL to $SFTP_HOST:$SFTP_SYNC_ROOT"
+sftpclone $SFTP_DISABLE_KNOWN_HOSTS_CHECKING $SFTP_LOGGING -p$SFTP_PORT $SYNC_LOCAL "$SFTP_USER:$SFTP_PASSWORD@$SFTP_HOST:$SFTP_SYNC_ROOT"
 
