@@ -4,7 +4,7 @@
 #
 # Usage:
 #
-#  SFTP_PASSWORD=**** ./install.sh
+#  SFTP_PASSWORD=**** ./deploy.sh
 #
 
 # Here’s SFTP access to the directory on the staging site. Should meet needs for experimentation.
