@@ -19,10 +19,8 @@ DOCSDIR="${DOCSDIR:-../docs}"
 SFTP_USER="${SFTP_USER:-solacecloud-LearnDirStaging}"
 SFTP_HOST="${SFTP_HOST:-solacecloud.sftp.wpengine.com}"
 SFTP_PORT="${SFTP_PORT:-2222}"
-SFTP_SYNC_ROOT="${SFTP_SYNC_ROOT:-/}"
-SFTP_DISABLE_KNOWN_HOSTS_CHECKING=-d
-SFTP_LOGGING=--logging=DEBUG
-
+SFTP_COMMAND_DISABLE_KNOWN_HOSTS_CHECKING="set sftp:auto-confirm yes;"
+SFTP_COMMAND_SYNC="mirror -Re .;"
 
 # Check environment
 if [ -z "${SFTP_PASSWORD-}" ]; then
@@ -45,9 +43,6 @@ echo "Creating Python virtual environment"
 virtualenv .venv_deploy
 source ./.venv_deploy/bin/activate
 
-echo "Installing deployment requirements"
-pip install -r requirements.txt
-
 echo "Creating build directory"
 mkdir -p $BUILDDIR
 
@@ -69,6 +64,8 @@ BUILDDIR=$BUILDDIR_REAL make html
 popd > /dev/null
 
 SYNC_LOCAL="$BUILDDIR_REAL/html"
-echo "Synchronizing $SYNC_LOCAL to $SFTP_HOST:$SFTP_SYNC_ROOT"
-sftpclone $SFTP_DISABLE_KNOWN_HOSTS_CHECKING $SFTP_LOGGING -p$SFTP_PORT $SYNC_LOCAL "$SFTP_USER:$SFTP_PASSWORD@$SFTP_HOST:$SFTP_SYNC_ROOT"
+echo "Synchronizing $SYNC_LOCAL to $SFTP_HOST"
+pushd $SYNC_LOCAL > /dev/null
+echo lftp -u $SFTP_USER,$SFTP_PASSWORD sftp://$SFTP_HOST:$SFTP_PORT -e "$SFTP_COMMAND_DISABLE_KNOWN_HOSTS_CHECKING $SFTP_COMMAND_SYNC exit"
+lftp -u $SFTP_USER,$SFTP_PASSWORD sftp://$SFTP_HOST:$SFTP_PORT -e "$SFTP_COMMAND_DISABLE_KNOWN_HOSTS_CHECKING $SFTP_COMMAND_SYNC exit"
 
