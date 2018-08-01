@@ -3,7 +3,12 @@ API Reference Guides
 
 Check out `API Features <https://docs.solace.com/Features/Features-Intro.htm>`_ for detailed review of each messaging feature the API supports
 
+
+Solace Messaging APIs
+---------------------
+
 For each languange, visit:
+
 
 C
 ~~~
