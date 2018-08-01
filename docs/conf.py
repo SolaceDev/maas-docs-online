@@ -15,7 +15,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import sphinx_rtd_theme
+# import solace_theme # not a Python package
 
 # -- Project information -----------------------------------------------------
 
@@ -74,16 +74,22 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'solace_theme'
 html_show_sourcelink = False
 # html_static_path = ['_static']
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme_path = ['theme']
 html_logo = 'img/logo2.png'
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
 }
 
+html_context = {
+  'display_github': True,
+  'github_user': 'SolaceDev',
+  'github_repo': 'maas-docs-online',
+  'github_version': 'master'
+}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the

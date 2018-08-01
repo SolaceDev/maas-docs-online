@@ -20,6 +20,5 @@ In addition:
     - **Topic** when the **Message** is intended to be consumed by more than one **Subscribers**
     - **Queue** when the **Message** is intended to be consumed by at most one **Subscriber**
 
-.. [1] The idea is that we should try to keep the coupling between classes in our systems as 'loose' as possible:
-    hence 'loose coupling' or sometimes 'decoupling' (although in English 'decoupling' would mean 'no coupling at all',
-    people often use it to imply 'loose coupling' between entities)
+.. [1] We should try to keep the coupling between components in our systems as 'loose' as possible to allow
+    the implementation of each component to change without unduly affecting the others.

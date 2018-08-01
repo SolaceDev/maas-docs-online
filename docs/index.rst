@@ -1,11 +1,9 @@
-
-####################################
-Welcome to Solace Cloud Docs Portal
+Learn Solace PubSub+ Cloud
 ####################################
 
-Solace PubSub+ Cloud is a managed Solace PubSub+ enterprise-grade service in the cloud.
+Solace PubSub+ Cloud is a managed enterprise-grade messaging service in the cloud.
 
-To get started with this service, go to :doc:`group_getting_started/getting_started_sc_dev`
+The easiest way to learn about Solace PubSub+ Cloud is to create a messaging service and use it. To get started, visit :doc:`group_getting_started/getting_started_sc_dev`.
 
 .. _`sign up`: https://cloud.solace.com/signup/
 
@@ -13,8 +11,9 @@ To get started with this service, go to :doc:`group_getting_started/getting_star
 .. toctree::
    :maxdepth: 1
    :caption: Getting Started
+   :glob:
 
-   group_getting_started/getting_started_sc_dev
+   group_getting_started/getting_started*
 
 .. _live-demos:
 .. toctree::
