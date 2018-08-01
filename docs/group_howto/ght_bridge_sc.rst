@@ -1,4 +1,4 @@
-How to use a VPN bridge
+How to Use a VPN Bridge
 ========================
 
 

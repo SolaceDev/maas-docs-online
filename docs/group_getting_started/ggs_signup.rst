@@ -22,8 +22,6 @@ If you haven't yet signed up for Solace PubSub+ Cloud, `sign up <https://cloud.s
 
 .. image:: ../img/ss_signup_p1.png
    :target: https://cloud.solace.com/signup/
-   :width: 480px
-   :height: 400px
 
 `Sign up <https://cloud.solace.com/signup/>`_
 

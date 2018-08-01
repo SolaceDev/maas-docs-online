@@ -88,7 +88,8 @@ html_context = {
   'display_github': True,
   'github_user': 'SolaceDev',
   'github_repo': 'maas-docs-online',
-  'github_version': 'master'
+  'github_version': 'master/docs/',
+  'theme_vcs_pageview_mode': 'tree'
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
