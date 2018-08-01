@@ -15,13 +15,6 @@ The easiest way to learn about Solace PubSub+ Cloud is to create a messaging ser
 
    group_getting_started/*
 
-.. _live-demos:
-.. toctree::
-   :maxdepth: 2
-   :caption: Live Demos
-   :glob:
-
-   group_live_demos/*
 
 .. _quick-starts:
 .. toctree::
@@ -32,14 +25,6 @@ The easiest way to learn about Solace PubSub+ Cloud is to create a messaging ser
    group_quick_starts/*
 
 
-.. _integration-guides:
-.. toctree::
-   :maxdepth: 2
-   :caption: Integration
-   :glob:
-
-   group_integration/*
-
 .. _developer-guide:
 .. toctree::
    :maxdepth: 2
@@ -47,14 +32,7 @@ The easiest way to learn about Solace PubSub+ Cloud is to create a messaging ser
    :glob:
 
    group_developer_guide/*
-
-.. _use-cases:
-.. toctree::
-   :maxdepth: 2
-   :caption: Use Cases
-   :glob:
-
-   group_use_cases/*
+   
 
 .. _howto:
 .. toctree::
