@@ -44,13 +44,13 @@ Solace JMS 1.1
 REST
 ----
 
-- `Samples <#>`_
-- `Features <#>`_
-- `Documentation <#>`_
+- `Samples <https://cloud.solace.com/samples/solace-samples-rest-messaging/>`_
+- `Features <https://dev.solace.com/tech/rest/>`_
+- `Documentation <https://docs.solace.com/Open-APIs-Protocols/REST-get-start.htm>`_
 
 OpenMAMA
 ---------
 
-- `Samples <#>`_
-- `Features <#>`_
-- `Documentation <#>`_
+- `Samples <https://cloud.solace.com/samples/solace-samples-openmama/>`_
+- `Features <https://dev.solace.com/tech/openmama/>`_
+- `Documentation <https://openmama.org>`_
