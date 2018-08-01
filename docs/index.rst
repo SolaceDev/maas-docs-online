@@ -44,9 +44,9 @@ The easiest way to learn about Solace PubSub+ Cloud is to create a messaging ser
 .. toctree::
    :maxdepth: 2
    :caption: Developer Guide & API
+   :glob:
 
-   group_developer_guide/use_api_tokens_sc_dg
-   group_developer_guide/api_docs_sc_dg
+   group_developer_guide/*
 
 .. _use-cases:
 .. toctree::
