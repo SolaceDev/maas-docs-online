@@ -18,17 +18,19 @@ The easiest way to learn about Solace PubSub+ Cloud is to create a messaging ser
 .. _live-demos:
 .. toctree::
    :maxdepth: 2
-   :caption: Live Demo Samples
+   :caption: Live Demos
+   :glob:
 
-   group_live_demos/chat_demo_sc_ld
+   group_live_demos/*
 
 .. _quick-starts:
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Quick Starts
+   :glob:
 
-   group_quick_starts/qs_mqtt
-   group_quick_starts/qs_microgateway
+   group_quick_starts/*
+
 
 .. _integration-guides:
 .. toctree::
