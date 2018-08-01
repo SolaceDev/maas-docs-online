@@ -1,2 +1,0 @@
-IOT Reading list
-=================
