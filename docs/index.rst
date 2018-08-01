@@ -34,8 +34,9 @@ The easiest way to learn about Solace PubSub+ Cloud is to create a messaging ser
 .. toctree::
    :maxdepth: 2
    :caption: Integration
+   :glob:
 
-   group_integration/travis_ig
+   group_integration/*
 
 .. _developer-guide:
 .. toctree::

@@ -18,14 +18,12 @@ already. This should not take more than **2 minutes** and will only need your br
 Step 1: Sign up
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you haven't yet signed up for Solace PubSub+ Cloud, |sign up| to create a **free** account.
+If you haven't yet signed up for Solace PubSub+ Cloud, `sign up <https://cloud.solace.com/signup/>`_ to create a **free** account.
 
 .. image:: ../img/ss_signup_p1.png
    :target: https://cloud.solace.com/signup/
    :width: 480px
    :height: 400px
-
-.. _`sign up`: https://cloud.solace.com/signup/
 
 `Sign up <https://cloud.solace.com/signup/>`_
 
