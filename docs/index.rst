@@ -3,7 +3,7 @@ Learn Solace PubSub+ Cloud
 
 Solace PubSub+ Cloud is a managed enterprise-grade messaging service in the cloud.
 
-The easiest way to learn about Solace PubSub+ Cloud is to create a messaging service and use it. To get started, visit :doc:`group_getting_started/getting_started_sc_dev`.
+The easiest way to learn about Solace PubSub+ Cloud is to create a messaging service and use it. To get started, visit :doc:`group_getting_started/ggs_signup`.
 
 .. _`sign up`: https://cloud.solace.com/signup/
 
