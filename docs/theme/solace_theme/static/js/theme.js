@@ -213,7 +213,7 @@ jQuery(document).ready(function() {
   var $ = jQuery;
   console.log('setting up external links')
   $("a.external").attr('target','_blank');
-  $("#menu-toggle").click(function () {
-    $('#header-menu-list').toggleClass('open');
-  });
+  // $("#menu-toggle").click(function () {
+  //   $('#header-menu-list').toggleClass('open');
+  // });
 });

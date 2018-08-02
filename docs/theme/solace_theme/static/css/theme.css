@@ -5968,8 +5968,9 @@ html {
 .header-container {
   position: fixed;
   width: 100%;
+  height: 120px;
   margin: 0;
-  display: inline-block;
+  background: white;
 }
 
 header {
@@ -5978,7 +5979,6 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: white;
   width: 100%;
   height: 120px;
   z-index: 1000;
