@@ -84,33 +84,41 @@
 </head>
 
 <body class="wy-body-for-nav">
-  <header id="header" role="banner" itemscope="itemscope">
-    <span class="logo">
-      <a href="/">
-        <img src="{{ pathto('_static/img/cloud.png', 1) }}"
-          alt="Solace PubSub+ Cloud">
-      </a>
-    </span>
-    <nav class="menu" data-selectname="Select a page" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
-      <ul id="header-menu-list" class="menu-list">
-        <li id="menu-features" class="menu-item menu-item-underline">
-          <a href="/features/" itemprop="url">Features</a>
-        </li>
-        <li id="header-menu-pricing" class="menu-item menu-item-underline">
-          <a href="/pricing/" itemprop="url">Pricing</a>
-        </li>
-        <li id="header-menu-learn" class="menu-item menu-item-underline">
-          <a href="/learn/" itemprop="url">Learn</a>
-        </li>
-        <li id="header-menu-signup" class="menu-item menu-item-highlight">
-          <a href="/signup/" itemprop="url">Sign Up</a>
-        </li>
-        <li id="header-menu-login" class="menu-item menu-item-underline">
-          <a href="/login/" itemprop="url">Log In</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+  <div class="header-container">
+    <header id="header" role="banner" itemscope="itemscope">
+      <span class="logo">
+        <a href="/">
+          <img 
+            src="{{ pathto('_static/img/cloud.png', 1) }}"
+            srcset="{{ pathto('_static/img/cloud-073.png', 1) }} 73w,
+                    {{ pathto('_static/img/cloud-300.png', 1) }} 300w"
+            sizes="(max-width: 768px) 73px,
+                   (max-width: 830px) 300px,
+                   300px"
+            alt="Solace PubSub+ Cloud">
+        </a>
+      </span>
+      <nav class="menu" data-selectname="Select a page" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+        <ul id="header-menu-list" class="menu-list">
+          <li id="menu-features" class="menu-item menu-item-underline">
+            <a href="/features/" itemprop="url">Features</a>
+          </li>
+          <li id="header-menu-pricing" class="menu-item menu-item-underline">
+            <a href="/pricing/" itemprop="url">Pricing</a>
+          </li>
+          <li id="header-menu-learn" class="menu-item menu-item-underline">
+            <a href="/learn/" itemprop="url">Learn</a>
+          </li>
+          <li id="header-menu-signup" class="menu-item menu-item-highlight">
+            <a href="/signup/" itemprop="url">Sign Up</a>
+          </li>
+          <li id="header-menu-login" class="menu-item menu-item-underline">
+            <a href="https://console.solace.cloud/login/" itemprop="url">Log In</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
 
   {% block extrabody %} {% endblock %}
   <div class="wy-grid-for-nav">

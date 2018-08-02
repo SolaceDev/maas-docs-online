@@ -4970,7 +4970,7 @@ code.code-large, .rst-content tt.code-large {
   padding: .809em;
   margin-bottom: .809em;
   z-index: 200;
-  background-color: #f7f8f9;
+  background-color: #9e9797;
   text-align: center;
   padding: .809em;
   display: block;
@@ -5106,7 +5106,7 @@ code.code-large, .rst-content tt.code-large {
 
 .wy-nav-top {
   display: none;
-  background: #2980B9;
+  background: #4e4a4a;
   color: #fff;
   padding: .4045em .809em;
   position: relative;
@@ -5964,18 +5964,30 @@ html {
   font-family: "Rubik", sans-serif;
 }
 
+.header-container {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  display: inline-block;
+}
+
 header {
   font-family: "Open Sans", HelveticeNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
   background-color: white;
   width: 100%;
   height: 120px;
   z-index: 1000;
+  max-width: 1175px;
+  margin: 0 auto;
   padding: 0px 50px;
+}
+
+.logo {
+  max-width: 300px;
 }
 
 .menu > .menu-list {
@@ -5984,6 +5996,7 @@ header {
 
 .menu-item {
   display: flex;
+  white-space: nowrap;
 }
 
 .menu-item > a {
@@ -6038,5 +6051,5 @@ header {
 }
 
 .menu-item > a:visited {
-  color: #ffffff;  
+  color: #033c76;  
 }
