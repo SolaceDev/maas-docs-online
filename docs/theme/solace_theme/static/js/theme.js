@@ -210,6 +210,10 @@ if (typeof(window) != 'undefined') {
 }
 
 jQuery(document).ready(function() {
+  var $ = jQuery;
   console.log('setting up external links')
-  jQuery("a.external").attr('target','_blank');
+  $("a.external").attr('target','_blank');
+  $("#menu-toggle").click(function () {
+    $('#header-menu-list').toggleClass('open');
+  });
 });

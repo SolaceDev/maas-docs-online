@@ -5075,8 +5075,7 @@ code.code-large, .rst-content tt.code-large {
 }
 
 .wy-grid-for-nav {
-  position: absolute;
-  top: 120px;
+  margin-top: 120px;
   width: 100%;
   height: 100%
 }
@@ -5109,7 +5108,9 @@ code.code-large, .rst-content tt.code-large {
   background: #4e4a4a;
   color: #fff;
   padding: .4045em .809em;
-  position: relative;
+  position: fixed;
+  top: 120px;
+  width: 100%;
   line-height: 50px;
   text-align: center;
   font-size: 100%;
@@ -5275,7 +5276,7 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
     position: fixed;
     min-width: 100%;
     left: 85%;
-    top: 0;
+    top: 120px;
     height: 100%;
     overflow: hidden
   }
@@ -6053,3 +6054,46 @@ header {
 .menu-item > a:visited {
   color: #033c76;  
 }
+
+/* .menu-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+    position: relative;
+  }
+  .menu-list.open {
+    background-color: white;
+    border: 1px solid grey;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    width: 300px;
+  }
+  .menu-list.open > .menu-toggle {
+    height: 120px;
+  }
+  .menu-list.open > .menu-toggle i {
+    display: block;
+    margin: auto 0 auto auto;
+    padding: 0 49px 0 0;
+  }
+  .menu-item {
+    display: none;
+  }
+  .menu-list.open > .menu-item {
+    display: block;
+    position: relative;
+    background: white;
+    margin: 10px;
+    border-top: 1px solid grey;
+    z-index: 501;
+  }
+  .menu.open > .menu-item a {
+    text-align: left;
+  }
+} */
