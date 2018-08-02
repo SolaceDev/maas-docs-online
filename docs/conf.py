@@ -78,7 +78,6 @@ html_theme = 'solace_theme'
 html_show_sourcelink = False
 # html_static_path = ['_static']
 html_theme_path = ['theme']
-html_logo = 'img/logo2.png'
 html_theme_options = {
     'logo_only': True,
     'display_version': False,

@@ -48,7 +48,7 @@ You need an API token to authenticate and authorize REST requests. When creating
 3. Click the “Create Token” button
 
 .. image:: ../img/use_api_tokens_2.jpg
-   :target: https://console.solace.cloud/api-tokens/create
+   :target: https://console.solace.cloud/api-tokens
 
 4. Give the Token a name and enable these permissions:
   * Get My Services
