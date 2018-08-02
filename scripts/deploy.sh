@@ -16,7 +16,8 @@
 BUILDDIR="${BUILDDIR:-../target}"
 DOCSDIR="${DOCSDIR:-../docs}"
 
-SFTP_USER="${SFTP_USER:-solacecloud-LearnDirStaging}"
+#SFTP_USER="${SFTP_USER:-solacecloud-LearnDirStaging}"
+SFTP_USER="${SFTP_USER:-solacecloud-LearnDirectory}"
 SFTP_HOST="${SFTP_HOST:-solacecloud.sftp.wpengine.com}"
 SFTP_PORT="${SFTP_PORT:-2222}"
 SFTP_COMMAND_DISABLE_KNOWN_HOSTS_CHECKING="set sftp:auto-confirm yes;"
