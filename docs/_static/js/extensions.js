@@ -46,13 +46,13 @@
     tracker.track('Navigation Complete'); // every page
 
     $(document).on('click', 'a', function elementClick(event) {
-      tracker.track('Element Click', { selector: getSelector(this) });
+      tracker.track('Click Element', { selector: getSelector(this) });
       return true;
     });
     $(document).on('submit', '#rtd-search-form', function onSearch(event) {
       var formData = $(this).serializeArray();
       var query = formData.find(function (el) { return el.name === 'q'; });
-      tracker.track('Sidebar Search', { query: query && query.value || undefined });
+      tracker.track('Search Sidebar', { query: query && query.value || undefined });
       return true;
     });
 
