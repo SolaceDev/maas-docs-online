@@ -1,4 +1,4 @@
-Up and Running
+Creating your First Service
 =============================
 
 Solace Cloud is easy to use, enterprise-grade, messaging as a service.
@@ -23,22 +23,21 @@ If you haven't yet signed up for Solace PubSub+ Cloud, `sign up <https://cloud.s
 .. image:: ../img/ss_signup_p1.png
    :target: https://cloud.solace.com/signup/
 
-`Sign up <https://cloud.solace.com/signup/>`_
 
-Step 2: Sign in and Create your first service
+Step 2: Sign in
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You should receive a confirmation email. If you can't find it, check your spam folder. Click the link to sign in to Solace PubSub+ Cloud.
 
-Now, click on the big **+**, the **Create Service** button, or on the image below, to create a service.
+Now, click on the big **plus sign +**, the **Create Service** button, or on the image below, to create a service.
 
 .. image:: ../img/ss_signup_2.png
    :target: https://console.solace.cloud/services/create
    
-Step 3: Get Service Details
+Step 3: Try the Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-On your service, click the Connect tab. Open Solace Web Messaging and note the connection details.
+On your service, click the Try Me! tab.
 
 .. image:: ../img/ss_signup_3.png
    :target: https://console.solace.cloud/services

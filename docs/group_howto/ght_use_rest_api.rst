@@ -1,4 +1,4 @@
-How to Use Solace Cloud REST API
+How to Use the Solace Cloud REST API
 ================================
 
 If you’re familiar with developing and deploying in a cloud environment, a common practice is to bring up a cloud resource using a cloud provider’s APIs, use that resource, then remove it when you are done. This is all accomplished programmatically, avoiding the need to start or stop the resources manually using the cloud provider’s user interface.
