@@ -1,4 +1,4 @@
-Using Open Messaging APIs
+Open Messaging APIs
 ===================
 
 To get started using Solace PubSub+ Cloud with open standard APIs:

@@ -1,4 +1,4 @@
-Using Broker Management APIs
+Management APIs
 ======================
 
 SEMPv2

@@ -1,4 +1,4 @@
-Using Solace Messaging APIs
+Solace Messaging APIs
 =====================
 
 

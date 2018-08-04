@@ -19,7 +19,7 @@ The easiest way to learn about Solace PubSub+ Cloud is to create a messaging ser
 .. _quick-starts:
 .. toctree::
    :maxdepth: 2
-   :caption: Quick Starts
+   :caption: Working With
    :glob:
 
    group_quick_starts/*
