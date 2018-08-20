@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Solace Cloud Docs'
+project = u''
 copyright = u'2018, Solace'
 author = u'Solace Cloud'
 
