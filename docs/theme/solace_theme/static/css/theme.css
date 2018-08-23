@@ -4558,28 +4558,28 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 p {
   line-height: 24px;
   margin: 0;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 24px
 }
 
 h1 {
-  font-size: 175%
-}
-
-h2, .rst-content .toctree-wrapper p.caption {
   font-size: 150%
 }
 
-h3 {
-  font-size: 125%
+h2, .rst-content .toctree-wrapper p.caption {
+  font-size: 135%
 }
 
-h4 {
+h3 {
   font-size: 115%
 }
 
+h4 {
+  font-size: 105%
+}
+
 h5 {
-  font-size: 110%
+  font-size: 100%
 }
 
 h6 {
@@ -4666,6 +4666,7 @@ code.code-large, .rst-content tt.code-large {
 }
 
 .wy-breadcrumbs {
+  font-size: 14px;
   *zoom: 1
 }
 
@@ -5461,7 +5462,7 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 }
 
 .rst-content img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto
 }
 
@@ -5482,7 +5483,9 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 }
 
 .rst-content .section>img, .rst-content .section>a>img {
-  margin-bottom: 24px
+  margin-bottom: 24px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 3px;
 }
 
 .rst-content abbr[title] {
@@ -5791,7 +5794,8 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 }
 
 .rst-content dl {
-  margin-bottom: 24px
+  margin-bottom: 24px;
+  font-size: 14px;
 }
 
 .rst-content dl dt {
@@ -6069,6 +6073,40 @@ header {
 
 .menu-item > a:visited {
   color: #ffffff;  
+}
+
+.cards {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.card {
+  position: relative;
+  width: 170px;
+  min-width: 170px;
+  border-radius: 5px;
+  padding: 20px;
+  height: 195px;
+  color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  text-align: center; 
+  margin: 10px;
+}
+
+.card a {
+  display: block;
+  margin: 10px;
+  color: #00ad93;
+}
+
+.card img {
+  margin-bottom: 10px;
+  height: 50px;
+  max-width: none;
 }
 
 /* .menu-toggle {

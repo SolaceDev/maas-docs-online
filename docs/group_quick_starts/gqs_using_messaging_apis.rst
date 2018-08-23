@@ -7,50 +7,50 @@ For open protocols, the Solace message broker readily communicates with third pa
 Solace also provides APIs for our proprietary messaging API, SMF. See the list below to find the appropriate API for your use case.
 
 
-C
-~~~
+.. raw:: html
 
-- `Samples <https://cloud.solace.com/samples/solace-samples-c/>`_
-- `Features <https://dev.solace.com/tech/c-api/>`_
-- `Documentation <https://docs.solace.com/API-Developer-Online-Ref-Documentation/c/index.html>`_
+        <div class="cards">
+            <div class="card">
+                <img src="/_static/img/c-logo.png"></img>
+                <a target="_blank" href="https://cloud.solace.com/samples/solace-samples-c/">Samples</a>
+                <a target="_blank" href="https://dev.solace.com/tech/c-api/">Features</a>
+                <a target="_blank" href="https://docs.solace.com/API-Developer-Online-Ref-Documentation/c/index.html">Documentation</a>
+            </div>
+            <div class="card">
+                <img src="/_static/img/macos-logo.png"></img>
+                <a target="_blank" href="https://dev.solace.com/tech/ios-api/">Features</a>
+                <a target="_blank" href="https://docs.solace.com/Solace-PubSub-Messaging-APIs/iOS-API/iOS-api-home.htm">Documentation</a>
+            </div>
+            <div class="card">
+                <img src="/_static/img/java-logo.png"></img>
+                <a target="_blank" href="https://cloud.solace.com/samples/solace-samples-java/">Samples</a>
+                <a target="_blank" href="https://dev.solace.com/tech/java-api/">Features</a>
+                <a target="_blank" href="https://docs.solace.com/API-Developer-Online-Ref-Documentation/java/index.html">Documentation</a>
+            </div>
+            <div class="card">
+                <img src="/_static/img/javarto-logo.png"></img>
+                <a target="_blank" href="https://cloud.solace.com/samples/solace-samples-javarto/">Samples</a>
+                <a target="_blank" href="https://dev.solace.com/tech/java-rto-api/">Features</a>
+                <a target="_blank" href="https://docs.solace.com/API-Developer-Online-Ref-Documentation/jrto/index.html">Documentation</a>
+            </div>
+            <div class="card">
+                <img src="/_static/img/javascript-logo.png"></img>
+                <a target="_blank" href="https://cloud.solace.com/samples/solace-samples-javascript/">Samples</a>
+                <a target="_blank" href="https://dev.solace.com/tech/javascript-api/">Features</a>
+                <a target="_blank" href="https://docs.solace.com/API-Developer-Online-Ref-Documentation/js/index.html">Documentation</a>
+            </div>
+            <div class="card">
+                <img src="/_static/img/nodejs-logo.png"></img>
+                <a target="_blank" href="https://cloud.solace.com/samples/solace-samples-nodejs/">Samples</a>
+                <a target="_blank" href="https://dev.solace.com/tech/node-js/">Features</a>
+                <a target="_blank" href="https://docs.solace.com/API-Developer-Online-Ref-Documentation/nodejs/index.html">Documentation</a>
+            </div>
+            <div class="card">
+                <img src="/_static/img/dotnet-logo.png"></img>
+                <a target="_blank" href="https://cloud.solace.com/samples/solace-samples-dotnet/">Samples</a>
+                <a target="_blank" href="https://dev.solace.com/tech/dot-net-api/">Features</a>
+                <a target="_blank" href="https://docs.solace.com/API-Developer-Online-Ref-Documentation/net/html/98265723-512a-4f99-96e9-ea0d592bcb99.htm">Documentation</a>
+            </div>
+        </div>
 
-iOS
-~~~
-
-- `Features <https://dev.solace.com/tech/ios-api/>`_
-- `Documentation <https://docs.solace.com/Solace-PubSub-Messaging-APIs/iOS-API/iOS-api-home.htm>`_
-
-Java
-~~~~~
-
-- `Samples <https://cloud.solace.com/samples/solace-samples-java/>`_
-- `Features <https://dev.solace.com/tech/java-api/>`_
-- `Documentation <https://docs.solace.com/API-Developer-Online-Ref-Documentation/java/index.html>`_
-
-Java RTO
-~~~~~~~~
-
-- `Samples <https://cloud.solace.com/samples/solace-samples-javarto/>`_
-- `Features <https://dev.solace.com/tech/java-rto-api/>`_
-- `Documentation <https://docs.solace.com/API-Developer-Online-Ref-Documentation/jrto/index.html>`_
-
-JavaScript
-~~~~~~~~~~
-
-- `Samples <https://cloud.solace.com/samples/solace-samples-javascript/>`_
-- `Features <https://dev.solace.com/tech/javascript-api/>`_
-- `Documentation <https://docs.solace.com/API-Developer-Online-Ref-Documentation/js/index.html>`_
-
-Node.js
-~~~~~~~
-
-- `Samples <https://cloud.solace.com/samples/solace-samples-nodejs/>`_
-- `Features <https://dev.solace.com/tech/node-js/>`_
-- `Documentation <https://docs.solace.com/API-Developer-Online-Ref-Documentation/nodejs/index.html>`_
-
-.NET
-~~~~
-
-- `Samples <https://cloud.solace.com/samples/solace-samples-dotnet/>`_
-- `Features <https://dev.solace.com/tech/dot-net-api/>`_
-- `Documentation <https://docs.solace.com/API-Developer-Online-Ref-Documentation/net/html/98265723-512a-4f99-96e9-ea0d592bcb99.htm>`_
+|

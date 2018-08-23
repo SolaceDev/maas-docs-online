@@ -50,7 +50,7 @@ Step 4: Run the inline sample
 .. raw:: html
 
         <div>
-        <iframe height='640' scrolling='no' title='Simple: PubSub+ Request/Reply' src='//codepen.io/tzoght/embed/OEedYX/?height=300&theme-id=34151&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>
+        <iframe height='640' scrolling='no' title='Simple: PubSub+ Request/Reply' src='//codepen.io/tzoght/embed/OEedYX/?height=300&theme-id=34151&default-tab=result&embed-version=2' frameborder='yes' allowtransparency='true' allowfullscreen='true' style='width: 90%;border: 1px solid rgba(0,0,0,0.1);'>
                 See the Pen <a href='https://codepen.io/tzoght/pen/OEedYX/'>Simple: PubSub+ Request/Reply</a> by Tony (<a href='https://codepen.io/tzoght'>@tzoght</a>) on <a href='https://codepen.io'>CodePen</a>.
         </iframe>
         </div>
