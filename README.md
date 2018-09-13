@@ -16,7 +16,7 @@ You must have Python 2.7 and Virtual Env install on your machine
 
 * Install Python dependencies
 
-`$ pip install -r docs/requirements.txt`
+`$ pip install -r ./requirements.txt`
 
 * Generate the docs
 
