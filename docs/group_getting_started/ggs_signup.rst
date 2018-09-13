@@ -9,7 +9,7 @@ We will:
  1. go over the basics of messaging
  2. walk you through the simplest messaging example
 
-If you are new to **Messaging**, you may wish to first read :doc:`../group_concepts/messaging_concepts_sc_dev`. 
+If you are new to **Messaging**, you may wish to first read :doc:`../group_concepts/gc_messaging_concepts`. 
 
 Otherwise, let's get started. You can skip any of the following steps if you're done it
 already. This should not take more than **2 minutes** and will only need your browser.

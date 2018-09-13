@@ -8,13 +8,15 @@ You must have Python 2.7 and Virtual Env install on your machine
 
 *  Go to docs directory and run the following:
 
+`$ cd docs`
+
 `$ virtualenv _venv`
 
 `$ source ./_venv/bin/activate`
 
 * Install Python dependencies
 
-`$ pip install -r requirements.txt`
+`$ pip install -r docs/requirements.txt`
 
 * Generate the docs
 

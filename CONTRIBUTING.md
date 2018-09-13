@@ -59,14 +59,14 @@ Assuming you have not yet pushed your branch to origin, use `git rebase` (not `g
 repository.
 
 ```sh
-$ git fetch upstream
-$ git rebase master
+git fetch upstream
+git rebase master
 ```
 
 If you have not set the upstream, do so as follows:
 
 ```sh
-$ git remote add upstream https://github.com/SolaceDev/maas-docs-online
+git remote add upstream https://github.com/SolaceDev/maas-docs-online
 ```
 
 If you have already pushed your fork, then do not rebase. Instead merge any changes from master that are not already part of your branch.
