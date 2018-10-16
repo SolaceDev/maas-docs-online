@@ -15,7 +15,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 audio, canvas, video {
   display: inline-block;
   *display: inline;
-  *zoom: 1
+  *zoom: 1;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.video {
+    margin-bottom: 15px;
+    video {
+        cursor: pointer;
+    }
+}
+
+.simple {
+    font-size: 14px;
 }
 
 audio:not([controls]) {
@@ -117,7 +129,7 @@ ul, ol, dl {
   margin: 0;
   padding: 0;
   list-style: none;
-  list-style-image: none
+  list-style-image: none;
 }
 
 li {
@@ -6060,19 +6072,19 @@ header {
 }
 
 .menu-item-highlight > a {
-  color: #ffffff;  
+  color: #ffffff;
 }
 
 .menu-item-highlight > a:hover {
-  color: #ffffff;  
+  color: #ffffff;
 }
 
 .menu-item >  a:active {
-  color: #ffffff;  
+  color: #ffffff;
 }
 
 .menu-item > a:visited {
-  color: #ffffff;  
+  color: #ffffff;
 }
 
 .cards {
@@ -6093,7 +6105,7 @@ header {
   height: 195px;
   color: rgba(0, 0, 0, 0.4);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  text-align: center; 
+  text-align: center;
   margin: 10px;
 }
 
