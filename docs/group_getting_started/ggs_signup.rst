@@ -9,6 +9,14 @@ If you are new to **Messaging**, you may wish to first read :doc:`../group_conce
 
 Otherwise, let's get started. You can skip to `step 2`_  if you already have an account. This should not take more than **2 minutes** and will only require a web browser.
 
+Goals
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The goal of this tutorial is to demonstrate the most basic messaging interaction using Solace. This tutorial will show you:
+
+* How to sign up for Solace PubSub+ Cloud.
+* How to create a service.
+* How to find your service’s connection information.
 
 Step 1: Sign up for Solace PubSub+ Cloud
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -35,7 +43,7 @@ create your first service, follow the steps below.
 
 1. Press the Create Service button.
 2. You must then select a **plan type**, enter a **service name**, and choose the **cloud provider and region** where you would like to create your service.
-3. For your first service, select the **Free Plan**. Solace PubSub+ Cloud gives you access to different plan types that will give various levels of messaging performance. By default, a new Solace PubSub+ Cloud account only has access to the free plan. Later on, you may request access to additional plans by selecting them and pressing the request access button.
+3. For your first service, select the **Free Plan** or **Nano** depending on your account setup. Solace PubSub+ Cloud gives you access to different plan types that will give various levels of messaging performance. By default, a new Solace PubSub+ Cloud account only has access to the free plan. Later on, you may request access to additional plans by selecting them and pressing the request access button.
 4. Enter a service name of **My First Service**. Services are identified in the console by their name.
 5. Press on the map and choose one of Solace PubSub+ Cloud's available providers and regions. If the region you prefer isn't available, you can contact Solace PubSub+ Cloud support and ask for your region to be supported. For your first service, choose the region closest to where your application will run.
 6. You can then complete the process by pressing the Start Service button.
@@ -74,4 +82,8 @@ library. From here, you can explore more about your client library using the lin
        <img src="../_static/img/connectivity_2.png" width="40%;"></img>
 	</div>
 
-If you've made it this far, we thank you for taking the time to create your first Solace PubSub+ Cloud messaging service. On the next tutorial will walk you through trying your service.
+
+Step 4: Learn more
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you've made it this far, we thank you for taking the time to create your first Solace PubSub+ Cloud messaging service. On the next tutorial will walk you through `trying your service <ggs_tryme.html>`__.

@@ -1,7 +1,7 @@
 Try Your Service
 =============================
 
-This getting started tutorial will walk you through trying your new service. You will try out the service by connecting a publisher and a subscriber, subscribing to a topic, and publishing a matching message.
+To start integrating your applications with Solace PubSub+ Cloud, you must first `create a messaging service <ggs_signup.html>`__. This getting started tutorial will walk you through trying your new service. You will try out the service by connecting a publisher and a subscriber, subscribing to a topic, and publishing a matching message.
 Beyond trying your service out, you can also learn more about the web messaging APIs by viewing the source code on Code Pen.
 
 Goals
@@ -54,7 +54,7 @@ To connect publisher and subscriber, follow the steps below.
 Step 3: Subscriber to a topic
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Subscribe to the **try-me** topic under step 2 on the subscriber window. `Click here <https://docs.solace.com/>`_  to learn more about topics.
+Subscribe to the **try-me** topic under step 2 on the subscriber window. `Click here <https://docs.solace.com/Features/Topic-Support-and-Syntax.htm>`_  to learn more about topics.
 
 .. image:: ../img/tryMe_6.png
     :width: 400px
@@ -76,7 +76,7 @@ You should see that the message has been sent on you publisher and received by y
 Step 6: Learn more
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Learn more about `topic hierarchy <https://docs.solace.com/>`_.
+* Learn more about `topic hierarchy <https://docs.solace.com/Features/Topic-Support-and-Syntax.htm>`_.
 * Learn more about `management APIs <../group_quick_starts/gqs_using_management_apis.html>`__.
 * Learn more about `Solace Messaging APIs <../group_quick_starts/gqs_using_messaging_apis.html>`__.
 * Learn more about `open Messaging  APIs <../group_quick_starts/gqs_using_open_apis.html>`__.
