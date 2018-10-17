@@ -12,7 +12,7 @@ Otherwise, let's get started. You can skip to `step 2`_  if you already have an 
 Goals
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The goal of this tutorial is to demonstrate the most basic messaging interaction using Solace. This tutorial will show you:
+The goal of this tutorial is to help you sign up for an account and create your first service. This tutorial will show you:
 
 * How to sign up for Solace PubSub+ Cloud.
 * How to create a service.
@@ -86,4 +86,6 @@ library. From here, you can explore more about your client library using the lin
 Step 4: Learn more
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you've made it this far, we thank you for taking the time to create your first Solace PubSub+ Cloud messaging service. On the next tutorial will walk you through `trying your service <ggs_tryme.html>`__.
+Well done. You've now signed up and created your first messaging service. Want to learn more? 
+
+* Try exchanging some messages with your new messaging service with this next quick start `trying your service <ggs_tryme.html>`__.
