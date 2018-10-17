@@ -1,7 +1,7 @@
-Creating Your First Service
-=============================
+Creating Your First Messaging Service
+=====================================
 
-To start integrating your applications with Solace PubSub+ Cloud, you must first create a messaging service. Once your service is created, you can connect your applications with it
+To start integrating your applications with Solace PubSub+ Cloud, you must first create a messaging service. Once your messaging service is created, you can connect your applications with it
 by using a client library compatible with the Solace PubSub+ message broker. This getting started tutorial will walk you through creating an account on Solace PubSub+ Cloud,
 creating your first messaging service, and obtaining the connection information necessary to get your applications connected to Solace PubSub+ Cloud.
 
@@ -12,11 +12,11 @@ Otherwise, let's get started. You can skip to `step 2`_  if you already have an 
 Goals
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The goal of this tutorial is to help you sign up for an account and create your first service. This tutorial will show you:
+The goal of this tutorial is to help you sign up for an account and create your first messaging service. This tutorial will show you:
 
 * How to sign up for Solace PubSub+ Cloud.
-* How to create a service.
-* How to find your service’s connection information.
+* How to create a messaging service.
+* How to find your messaging service’s connection information.
 
 Step 1: Sign up for Solace PubSub+ Cloud
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -35,17 +35,16 @@ where you must enter a password to activate your Solace PubSub+ Cloud account. O
 
 .. _`step 2`:
 
-Step 2: Create a service
+Step 2: Create a messaging service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once you have logged into the console, you will be brought to the My Services page. This page will show you all of the various services you have created in Solace PubSub+ Cloud. To
-create your first service, follow the steps below.
+Once you have logged into the console, you will be brought to the My Services page. This page will show you all of the various messaging services you have created in Solace PubSub+ Cloud. To create your first messaging service, follow the steps below.
 
 1. Press the Create Service button.
-2. You must then select a **plan type**, enter a **service name**, and choose the **cloud provider and region** where you would like to create your service.
-3. For your first service, select the **Free Plan** or **Nano** depending on your account setup. Solace PubSub+ Cloud gives you access to different plan types that will give various levels of messaging performance. By default, a new Solace PubSub+ Cloud account only has access to the free plan. Later on, you may request access to additional plans by selecting them and pressing the request access button.
-4. Enter a service name of **My First Service**. Services are identified in the console by their name.
-5. Press on the map and choose one of Solace PubSub+ Cloud's available providers and regions. If the region you prefer isn't available, you can contact Solace PubSub+ Cloud support and ask for your region to be supported. For your first service, choose the region closest to where your application will run.
+2. You must then select a **plan type**, enter a **service name**, and choose the **cloud provider and region** where you would like to create your messaging service.
+3. For your first messaging service, select the **Free Plan** or **Nano** depending on your account setup. Solace PubSub+ Cloud gives you access to different plan types that will give various levels of messaging performance. By default, a new Solace PubSub+ Cloud account only has access to the free plan. Later on, you may request access to additional plans by selecting them and pressing the request access button.
+4. Enter a messaging service name of **My First Service**. Messaging services are identified in the console by their name.
+5. Press on the map and choose one of Solace PubSub+ Cloud's available providers and regions. If the region you prefer isn't available, you can contact Solace PubSub+ Cloud support and ask for your region to be supported. For your first messaging service, choose the region closest to where your application will run.
 6. You can then complete the process by pressing the Start Service button.
 
 To see these steps in action, watch the following video.
@@ -56,17 +55,17 @@ To see these steps in action, watch the following video.
 		<source src="../_static/video/createservice.webm">
 	</video>
 
-Step 3: Find your service's connection information
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Step 3: Find your messaging service's connection information
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once you've pressed the Start Service button, the console will transition to the Service Details page for your service. It may take some time for your service to be created in the
-cloud, but once it is, you will see the status of your service. The options you have when viewing your service details are as follows:
+Once you've pressed the Start Service button, the console will transition to the Service Details page for your messaging service. It may take some time for your messaging service to be created in the
+cloud, but once it is, you will see the status of your messaging service. The options you have when viewing your messaging service details are as follows:
 
-- **Status**: View the overall status and health of your service.
-- **Connect**: Find the connection information for your service by selecting your language or protocol of choice.
-- **Manage**: Find the management options for your service to perform tasks such as configuring queues or managing clients.
-- **Plan Details**: View the details of the plan you created your service with such as the cloud provider, region, and connection limits.
-- **Try Me!**: Try your service out using applications embedded from CodePen examples that allow you to publish and subscribe for messages on your service.
+- **Status**: View the overall status and health of your messaging service.
+- **Connect**: Find the connection information for your messaging service by selecting your language or protocol of choice.
+- **Manage**: Find the management options for your messaging service to perform tasks such as configuring queues or managing clients.
+- **Plan Details**: View the details of the plan you created your messaging service with such as the cloud provider, region, and connection limits.
+- **Try Me!**: Try your messaging service out using applications embedded from CodePen examples that allow you to publish and subscribe for messages on your messaging service.
 
 .. image:: ../img/service-detail.jpeg
     :height: 250px
@@ -88,4 +87,4 @@ Step 4: Learn more
 
 Well done. You've now signed up and created your first messaging service. Want to learn more? 
 
-* Try exchanging some messages with your new messaging service with this next quick start `trying your service <ggs_tryme.html>`__.
+* Try exchanging some messages with your new messaging service with this next quick start `trying your messaging service <ggs_tryme.html>`__.

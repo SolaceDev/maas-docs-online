@@ -1,7 +1,7 @@
-Try Your Service
-=============================
+Trying Out Your Messaging Service
+=================================
 
-The first thing you need to do with Solace PubSub+ Cloud is to `create a messaging service <ggs_signup.html>`__. Assuming that you have now created a service, this getting started tutorial will walk you through trying your new service. You will try out the service by connecting a publisher and a subscriber, subscribing to a topic, and publishing a matching message.
+The first thing you need to do with Solace PubSub+ Cloud is to `create a messaging service <ggs_signup.html>`__. Assuming that you have now created a messaging service, this getting started tutorial will walk you through trying your new messaging service. You will try out the messaging service by connecting a publisher and a subscriber, subscribing to a topic, and publishing a matching message.
 
 Goals
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -16,8 +16,8 @@ Step 1: Go to try me tab
 
 To access the try me tab, follow the steps below.
 
-1. Go to your services page by selecting services from the top navigation bar.
-2. Select your service to navigate to the service details page.
+1. Go to your messaging services page by selecting Services from the top navigation bar.
+2. Select your messaging service to navigate to messaging service details.
 3. On the service details page, navigate to the **Try Me!** tab.
 
 .. image:: ../img/tryMe_1.png
@@ -32,7 +32,7 @@ Step 2: Connect publisher and subscriber
 
 The try me tab is divided into the following sections.
 
-* Donut charts at the top representing your service metrics such as network usage, guaranteed messaging endpoints and the number of active connections.
+* Donut charts at the top representing your messaging service metrics such as network usage, guaranteed messaging endpoints and the number of active connections.
 * Two code pen projects: publisher and subscriber. 
 
 To connect publisher and subscriber, follow the steps below.
