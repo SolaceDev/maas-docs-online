@@ -85,6 +85,6 @@ library. From here, you can explore more about your client library using the lin
 Step 4: Learn more
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Well done. You've now signed up and created your first messaging service. Want to learn more? 
+Well done. You've now signed up and created your first messaging service. Want to learn more?
 
-* Try exchanging some messages with your new messaging service with this next quick start `trying your messaging service <ggs_tryme.html>`__.
+* Try exchanging some messages with your new messaging service with this next quick start :doc:`trying your messaging service <ggs_tryme>`.
