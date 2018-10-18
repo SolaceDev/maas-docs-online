@@ -1,7 +1,7 @@
 Trying Out Your Messaging Service
 =================================
 
-The first thing you need to do with Solace PubSub+ Cloud is to `create a messaging service <ggs_signup.html>`__. Assuming that you have now created a messaging service, this getting started tutorial will walk you through trying your new messaging service. You will try out the messaging service by connecting a publisher and a subscriber, subscribing to a topic, and publishing a matching message.
+The first thing you need to do with Solace PubSub+ Cloud is to :doc:`create a messaging service <ggs_signup>`. Assuming that you have now created a messaging service, this getting started tutorial will walk you through trying your new messaging service. You will try out the messaging service by connecting a publisher and a subscriber, subscribing to a topic, and publishing a matching message.
 
 Goals
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -33,7 +33,7 @@ Step 2: Connect publisher and subscriber
 The try me tab is divided into the following sections.
 
 * Donut charts at the top representing your messaging service metrics such as network usage, guaranteed messaging endpoints and the number of active connections.
-* Two code pen projects: publisher and subscriber. 
+* Two code pen projects: publisher and subscriber.
 
 To connect publisher and subscriber, follow the steps below.
 
@@ -52,7 +52,7 @@ To connect publisher and subscriber, follow the steps below.
 .. image:: ../img/tryMe_5.png
     :width: 700px
 
-4. Optionally: Select the 'show advanced settings' option to see the credentials that this application is using to connect. These credentials are found in the 'Connect' tab and can be used when connecting your other applications. 
+4. Optionally: Select the 'show advanced settings' option to see the credentials that this application is using to connect. These credentials are found in the 'Connect' tab and can be used when connecting your other applications.
 
 Step 3: Subscribe to a topic
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -79,10 +79,10 @@ You should see that the message has been sent on you publisher and received by y
 Step 6: Learn more
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Well done. You've now exchanged with your messaging service. Want to learn more? 
+Well done. You've now exchanged with your messaging service. Want to learn more?
 
 * Try one of the API samples in GitHub:
-    * `Solace Messaging APIs <../group_quick_starts/gqs_using_messaging_apis.html>`__.
-    * `open Messaging  APIs <../group_quick_starts/gqs_using_open_apis.html>`__.
-* Learn how to manage your messaging service with our `REST Management APIs <../group_quick_starts/gqs_using_management_apis.html>`__.
+    * :doc:`Solace Messaging APIs <../group_quick_starts/gqs_using_messaging_apis>`.
+    * :doc:`open Messaging APIs <../group_quick_starts/gqs_using_open_apis>`.
+* Learn how to manage your messaging service with our :doc:`REST Management APIs <../group_quick_starts/gqs_using_management_apis>`.
 * Learn more about `topic hierarchy <https://docs.solace.com/Features/Topic-Support-and-Syntax.htm>`_.
