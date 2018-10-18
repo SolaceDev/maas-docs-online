@@ -10,8 +10,8 @@ The goal of this tutorial is to demonstrate the most basic messaging interaction
 
 Pre-Requisites
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1.`Sign up for Solace PubSub+ Cloud<ggs_signup.html#step-1-sign-up-for-solace-pubsub-cloud>`__.
-2.`Create a messaging service <ggs_signup.html>`__
+1. `Sign up for Solace PubSub+ Cloud<ggs_signup.html#step-1-sign-up-for-solace-pubsub-cloud>`__.
+2. `Create a messaging service <ggs_signup.html>`__
 
 Step 1: Go to the try me tool 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
