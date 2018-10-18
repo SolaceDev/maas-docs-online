@@ -38,17 +38,21 @@ where you must enter a password to activate your Solace PubSub+ Cloud account. O
 Step 2: Create a messaging service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once you have logged into the console, you will be brought to the My Services page. This page will show you all of the various messaging services you have created in Solace PubSub+ Cloud. To create your first messaging service, follow the steps below.
+**Tip:** When logged in you will be brought to the My Services page. This page will show you all the messaging services you have created in Solace PubSub+ Cloud. 
 
+**Create your first messaging service**
 1. Press the Create Service button.
-2. You must then select a **plan type**, enter a **service name**, and choose the **cloud provider and region** where you would like to create your messaging service.
-3. For your first messaging service, select the **Free Plan** or **Nano** depending on your account setup. Solace PubSub+ Cloud gives you access to different plan types that will give various levels of messaging performance. By default, a new Solace PubSub+ Cloud account only has access to the free plan. Later on, you may request access to additional plans by selecting them and pressing the request access button.
-4. Enter a messaging service name of **My First Service**. Messaging services are identified in the console by their name.
-5. Press on the map and choose one of Solace PubSub+ Cloud's available providers and regions. If the region you prefer isn't available, you can contact Solace PubSub+ Cloud support and ask for your region to be supported. For your first messaging service, choose the region closest to where your application will run.
-6. You can then complete the process by pressing the Start Service button.
+2. You must then select a **plan type**
+   **Tip:** For your first messaging service, select the **Free Plan** or **Nano** depending on your account setup.
+3. Enter a **service name**
+4. Choose the **cloud provider and region** for your messaging service by selecting the map and choosing from the available    providers and regions.
+5. Enter a messaging service name of **My First Service**. 
+6. Press the **Start Service** button to complete the process.
+7.The service will be created and the Service Details page will be displayed. 
+**Tip:** Solace PubSub+ Cloud gives you access to different plan types that will give various levels of messaging performance. By default, a new Solace PubSub+ Cloud account only has access to the free plan. Later on, you may request access to additional plans by selecting them and pressing the request access button.
+**Tip:** If the region you prefer isn't available, you can contact Solace PubSub+ Cloud support and ask for your region to be supported. For your first messaging service, choose the region closest to where your application will run.
 
 To see these steps in action, watch the following video.
-
 .. raw:: html
 
 	<video class="video" width="768" height="480" muted onclick="this.paused ? this.play() : this.pause();" controls>
@@ -58,9 +62,7 @@ To see these steps in action, watch the following video.
 Step 3: Find your messaging service's connection information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Once you've pressed the Start Service button, the console will transition to the Service Details page for your messaging service. It may take some time for your messaging service to be created in the
-cloud, but once it is, you will see the status of your messaging service. The options you have when viewing your messaging service details are as follows:
-
+Once the messaging service is created the Service Details page will be displayed.  Service details provided for the messaging service are as follows:
 - **Status**: View the overall status and health of your messaging service.
 - **Connect**: Find the connection information for your messaging service by selecting your language or protocol of choice.
 - **Manage**: Find the management options for your messaging service to perform tasks such as configuring queues or managing clients.
@@ -70,9 +72,12 @@ cloud, but once it is, you will see the status of your messaging service. The op
 .. image:: ../img/service-detail.jpeg
     :height: 250px
 
-Go to the Connect tab and choose the messaging protocol your application will be using. If you're not sure, you can also change the View By option to Language which allows you
-to browse by the language your client application is written in. Select the client library you would like to use and the required connection information can be viewed for that
-library. From here, you can explore more about your client library using the links under the learn more section.
+**Get the messaging Service's Connection Information**
+1. Go to the Connect tab 
+2. Choose the messaging protocol your application will be using. 
+3. The connection information for your messaging service will be provided.
+4. From here, you can explore more about your client library using the links under the learn more section.
+**Tip:** If you are unsure what messaging protocol you will be using you can also chang the View By option to Language.  This will allow you to select the client library that you would like to use.
 
 .. raw:: html
 
