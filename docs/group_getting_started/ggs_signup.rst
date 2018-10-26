@@ -25,13 +25,13 @@ To sign up for Solace PubSub+ Cloud, `click here <https://cloud.solace.com/signu
 signing up.
 
 .. image:: ../img/signup.jpeg
-    :height: 550px
 
 Once you have submitted your details, you will receive a confirmation email. By clicking the Activate button in the email, you will be brought to the Solace PubsSub+ Cloud Console
 where you must enter a password to activate your Solace PubSub+ Cloud account. Once activated, you will be automatically logged into the console.
 
-.. image:: ../img/activation-email.jpeg
-    :height: 500px
+.. raw:: html
+
+    <img src="../_images/activation-email.jpeg" style="max-width:350px;"/>
 
 .. _`step 2`:
 
@@ -51,7 +51,7 @@ To see these steps in action, watch the following video.
 
 .. raw:: html
 
-	<video class="video" width="768" height="480" muted onclick="this.paused ? this.play() : this.pause();" controls>
+	<video class="video" width="768" height="480" muted onclick="this.paused ? this.play() : this.pause();"  style="max-width: 700px;" controls>
 		<source src="../_static/video/createservice.webm">
 	</video>
 
@@ -68,7 +68,6 @@ cloud, but once it is, you will see the status of your messaging service. The op
 - **Try Me!**: Try your messaging service out using applications embedded from CodePen examples that allow you to publish and subscribe for messages on your messaging service.
 
 .. image:: ../img/service-detail.jpeg
-    :height: 250px
 
 Go to the Connect tab and choose the messaging protocol your application will be using. If you're not sure, you can also change the View By option to Language which allows you
 to browse by the language your client application is written in. Select the client library you would like to use and the required connection information can be viewed for that

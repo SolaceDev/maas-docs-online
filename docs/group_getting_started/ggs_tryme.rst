@@ -25,7 +25,6 @@ To access the try me tab, follow the steps below.
 4. You will then see the Try Me tab which has a JavaScript applications that you can use to exchange messages with your PubSub+ messaging service.
 
 .. image:: ../img/tryMe_2.png
-    :width: 600px
 
 Step 2: Connect publisher and subscriber
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -39,18 +38,19 @@ To connect publisher and subscriber, follow the steps below.
 
 1. Click on the connect button under step 1 on the publisher codepen.
 
-.. image:: ../img/tryMe_3.png
-    :width: 400px
+.. raw:: html
+
+    <img src="../_images/tryMe_3.png" style="max-width:400px;"/>
 
 2. Click on the connect button under step 1 on the subscriber codepen.
 
-.. image:: ../img/tryMe_4.png
-    :width: 400px
+.. raw:: html
+
+    <img src="../_images/tryMe_4.png" style="max-width:400px;"/>
 
 3. Validate publisher and subscriber connection.
 
 .. image:: ../img/tryMe_5.png
-    :width: 700px
 
 4. Optionally: Select the 'show advanced settings' option to see the credentials that this application is using to connect. These credentials are found in the 'Connect' tab and can be used when connecting your other applications.
 
@@ -59,22 +59,22 @@ Step 3: Subscribe to a topic
 
 Subscribe to the **try-me** topic under step 2 on the subscriber window. You can also try other topics if you like. `Click here <https://docs.solace.com/Features/Topic-Support-and-Syntax.htm>`_  to learn more about topics.
 
-.. image:: ../img/tryMe_6.png
-    :width: 400px
+.. raw:: html
+
+    <img src="../_images/tryMe_6.png" style="max-width:400px;"/>
 
 Step 4: Publish a matching message
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Publish a message with **try-me** as the topic name under step 2 on the publisher codepen.
 
-.. image:: ../img/tryMe_7.png
-    :width: 400px
+.. raw:: html
 
+    <img src="../_images/tryMe_7.png" style="max-width:400px;"/>
 
 You should see that the message has been sent on you publisher and received by your codepen.
 
 .. image:: ../img/tryMe_8.png
-    :width: 600px
 
 Step 6: Learn more
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -20,7 +20,8 @@ audio, canvas, video {
 }
 
 .video {
-    margin-bottom: 15px;
+    width: 100%;
+    margin-bottom: 24px;
     video {
         cursor: pointer;
     }
@@ -5127,7 +5128,7 @@ code.code-large, .rst-content tt.code-large {
 
 .wy-nav-top {
   display: none;
-  background: #484848;
+  background: #383838;
   color: #fff;
   padding: .4045em .809em;
   position: fixed;
@@ -5178,7 +5179,7 @@ code.code-large, .rst-content tt.code-large {
 .wy-nav-content {
   padding: 1.618em 3.236em;
   height: 100%;
-  width: calc(100% - 380px);
+  /*width: calc(100% - 380px);*/
   margin: auto
 }
 
@@ -5265,15 +5266,30 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
   font-size: 90%
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 784px) {
+  .header-container {
+    display: none;
+  }
+  .wy-nav-side {
+    top: 0;
+  }
   .wy-body-for-nav {
     background: #fcfcfc
   }
   .wy-nav-top {
-    display: block
+    display: block;
+    top: 0;
+    z-index: 2;
   }
   .wy-nav-side {
     left: -380px
+  }
+  .wy-nav-top img {
+      background-color: transparent;
+      height: 38px;
+      width: auto;
+      padding: 0;
+      border-radius: 0;
   }
   .wy-nav-side.shift {
     width: 85%;
@@ -5474,8 +5490,12 @@ footer span.commit code, footer span.commit .rst-content tt, .rst-content footer
 }
 
 .rst-content img {
-  max-width: 60%;
-  height: auto
+  height: auto;
+  max-width: 700px;
+  width: 100%;
+  margin-bottom: 24px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 3px;
 }
 
 .rst-content div.figure {
@@ -6121,6 +6141,8 @@ header {
   max-width: none;
   font-size: 25px;
   color: #6d6d6d;
+  width: auto;
+  border: none;
 }
 
 /* .menu-toggle {
