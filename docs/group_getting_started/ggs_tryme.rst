@@ -40,13 +40,13 @@ To connect publisher and subscriber, follow the steps below.
 
 .. raw:: html
 
-    <img src="../_images/tryMe_3.png" style="max-width:400px;"/>
+    <img src="../_static/img/tryMe_3.png" style="max-width:400px;"/>
 
 2. Click on the connect button under step 1 on the subscriber codepen.
 
 .. raw:: html
 
-    <img src="../_images/tryMe_4.png" style="max-width:400px;"/>
+    <img src="../_static/img/tryMe_4.png" style="max-width:400px;"/>
 
 3. Validate publisher and subscriber connection.
 
@@ -61,7 +61,7 @@ Subscribe to the **try-me** topic under step 2 on the subscriber window. You can
 
 .. raw:: html
 
-    <img src="../_images/tryMe_6.png" style="max-width:400px;"/>
+    <img src="../_static/img/tryMe_6.png" style="max-width:400px;"/>
 
 Step 4: Publish a matching message
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -70,7 +70,7 @@ Publish a message with **try-me** as the topic name under step 2 on the publishe
 
 .. raw:: html
 
-    <img src="../_images/tryMe_7.png" style="max-width:400px;"/>
+    <img src="../_static/img/tryMe_7.png" style="max-width:400px;"/>
 
 You should see that the message has been sent on you publisher and received by your codepen.
 

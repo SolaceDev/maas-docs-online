@@ -31,7 +31,7 @@ where you must enter a password to activate your Solace PubSub+ Cloud account. O
 
 .. raw:: html
 
-    <img src="../_images/activation-email.jpeg" style="max-width:350px;"/>
+    <img src="../_static/img/activation-email.jpeg" style="max-width:350px;"/>
 
 .. _`step 2`:
 
