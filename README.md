@@ -24,6 +24,6 @@ You must have Python 2.7 and Virtual Env install on your machine
 
 `$ open ./_build/html/index.html` 
 
-* Ror Auto load, go to docs and:
+* For Auto load, go to docs and:
 
 `$ sphinx-autobuild . ./_build/html`

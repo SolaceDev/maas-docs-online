@@ -1,5 +1,5 @@
 How to Use the Solace Cloud REST API
-================================
+====================================
 
 If you’re familiar with developing and deploying in a cloud environment, a common practice is to bring up a cloud resource using a cloud provider’s APIs, use that resource, then remove it when you are done. This is all accomplished programmatically, avoiding the need to start or stop the resources manually using the cloud provider’s user interface.
 
@@ -29,7 +29,7 @@ Setup
 * Click this `link to import the Postman collection <https://documenter.getpostman.com/view/3081638/RWM8SWza>`_ then hit the “Run in Postman” button.
 
 Installing Postman
------
+------------------
 
 If you don’t have Postman installed when you hit “Run in Postman”, it will prompt you to install it (which doesn’t take long). Once Postman is installed, you will need to shut it down and click on the “Run in Postman” link again to import the Postman collection.
 If you prefer using CURL, the Postman link above provides the sample CURL commands.
@@ -51,6 +51,7 @@ You need an API token to authenticate and authorize REST requests. When creating
    :target: https://console.solace.cloud/api-tokens
 
 4. Give the Token a name and enable these permissions:
+
   * Get My Services
   * Create Services
   * Delete My Services
@@ -61,6 +62,7 @@ You need an API token to authenticate and authorize REST requests. When creating
 5. Click the “Generate Token” button
 6. Copy the token to your clipboard by clicking the “Copy” button. **Note:** You will not see this again for security reasons. If you lose the token, you can always regenerate the token or create a new one.
 7. Set up Postman Collection Authorization – In order for Postman to send REST to Solace Cloud, you need to set the token you just created
+
   a. Set the Postman Environment to **Solace PubSub+ Cloud** -- look in the drop down in the upper left part of the Postman window.
 
 .. image:: ../img/use_api_tokens_4.jpg

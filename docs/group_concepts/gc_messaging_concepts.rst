@@ -2,8 +2,7 @@ An Introduction to Messaging
 ============================
 
 In development terms, **Messaging** refers to the set of concepts that lets computer systems, applications or services share
-information without requiring coupling [1]_ or awareness of one another's location. When developing applications or services,
-decoupling
+information without requiring coupling [1]_ or awareness of one another's location.
 
 So what are the core concepts that you need to know:
 

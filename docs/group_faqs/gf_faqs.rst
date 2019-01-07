@@ -1,5 +1,5 @@
 Frequently Answered Questions
-==============================
+=============================
 
 Q: How do I get access to enterprise plans?
 

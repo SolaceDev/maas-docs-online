@@ -4,3 +4,4 @@ _venv*
 .DS*
 .vscode
 target/
+*.iml

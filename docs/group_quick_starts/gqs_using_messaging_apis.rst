@@ -2,7 +2,7 @@ Solace Messaging APIs
 =====================
 
 
-For open protocols, the Solace message broker readily communicates with third party API for that protocol, subject to any limitations. Consult `API Features <https://docs.solace.com/Features/Features-Intro.htm>`_ for detailed review of each messaging feature that the API supports.
+For open protocols, the Solace message broker readily communicates with third party APIs for that protocol, subject to any limitations. Consult `API Features <https://docs.solace.com/Features/Features-Intro.htm>`_ for detailed review of each messaging feature that the API supports.
 
 Solace also provides APIs for our proprietary messaging API, SMF. See the list below to find the appropriate API for your use case.
 

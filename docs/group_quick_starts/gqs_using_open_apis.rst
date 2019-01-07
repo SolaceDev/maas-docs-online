@@ -6,9 +6,9 @@ To get started using Solace PubSub+ Cloud with open standard APIs:
 MQTT
 ----
 
-- `Samples <https://cloud.solace.com/samples/solace-samples-mqtt/>`_
-- `Features <https://dev.solace.com/tech/mqtt/>`_
-- `Documentation <https://www.eclipse.org/paho/>`_
+- `Samples <https://cloud.solace.com/samples/solace-samples-mqtt/>`__
+- `Features <https://dev.solace.com/tech/mqtt/>`__
+- `Documentation <https://www.eclipse.org/paho/>`__
 
 
 AMQP 1.0
@@ -17,40 +17,40 @@ AMQP 1.0
 JMS 1.1
 ~~~~~~~
 
-- `Samples <https://cloud.solace.com/samples/solace-samples-amqp-qpid-jms1/>`_
-- `Features <https://dev.solace.com/tech/amqp/>`_
-- `Documentation <https://docs.solace.com/Open-APIs-Protocols/AMQP/Developer-Subjects.htm>`_
+- `Samples <https://cloud.solace.com/samples/solace-samples-amqp-qpid-jms1/>`__
+- `Features <https://dev.solace.com/tech/amqp/>`__
+- `Documentation <https://docs.solace.com/Open-APIs-Protocols/AMQP/Developer-Subjects.htm>`__
 
 JMS 2.0
 ~~~~~~~
-- `Samples <https://cloud.solace.com/samples/solace-samples-amqp-qpid-jms2/>`_
-- `Features <https://dev.solace.com/tech/amqp/>`_
-- `Documentation <https://docs.solace.com/Open-APIs-Protocols/AMQP/Developer-Subjects.htm>`_
+- `Samples <https://cloud.solace.com/samples/solace-samples-amqp-qpid-jms2/>`__
+- `Features <https://dev.solace.com/tech/amqp/>`__
+- `Documentation <https://docs.solace.com/Open-APIs-Protocols/AMQP/Developer-Subjects.htm>`__
 
 Node.js
-~~~~~~~~
+~~~~~~~
 
-- `Samples <https://cloud.solace.com/samples/solace-samples-amqp-nodejs/>`_
-- `Features <https://dev.solace.com/tech/amqp/>`_
-- `Documentation <https://docs.solace.com/Open-APIs-Protocols/AMQP/Developer-Subjects.htm>`_
+- `Samples <https://cloud.solace.com/samples/solace-samples-amqp-nodejs/>`__
+- `Features <https://dev.solace.com/tech/amqp/>`__
+- `Documentation <https://docs.solace.com/Open-APIs-Protocols/AMQP/Developer-Subjects.htm>`__
 
 Solace JMS 1.1 
 --------------
 
-- `Samples <https://cloud.solace.com/samples/solace-samples-jms/>`_
-- `Features <https://dev.solace.com/tech/jms-api/>`_
-- `Documentation <https://docs.solace.com/API-Developer-Online-Ref-Documentation/jms/index.html>`_
+- `Samples <https://cloud.solace.com/samples/solace-samples-jms/>`__
+- `Features <https://dev.solace.com/tech/jms-api/>`__
+- `Documentation <https://docs.solace.com/API-Developer-Online-Ref-Documentation/jms/index.html>`__
 
 REST
 ----
 
-- `Samples <https://cloud.solace.com/samples/solace-samples-rest-messaging/>`_
-- `Features <https://dev.solace.com/tech/rest/>`_
-- `Documentation <https://docs.solace.com/Open-APIs-Protocols/REST-get-start.htm>`_
+- `Samples <https://cloud.solace.com/samples/solace-samples-rest-messaging/>`__
+- `Features <https://dev.solace.com/tech/rest/>`__
+- `Documentation <https://docs.solace.com/Open-APIs-Protocols/REST-get-start.htm>`__
 
 OpenMAMA
----------
+--------
 
-- `Samples <https://cloud.solace.com/samples/solace-samples-openmama/>`_
-- `Features <https://dev.solace.com/tech/openmama/>`_
-- `Documentation <https://openmama.org>`_
+- `Samples <https://cloud.solace.com/samples/solace-samples-openmama/>`__
+- `Features <https://dev.solace.com/tech/openmama/>`__
+- `Documentation <https://openmama.org>`__

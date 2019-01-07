@@ -7,10 +7,10 @@ creating your first messaging service, and obtaining the connection information 
 
 If you are new to **Messaging**, you may wish to first read :doc:`../group_concepts/gc_messaging_concepts`.
 
-Otherwise, let's get started. You can skip to `step 2`_  if you already have an account. This should not take more than **2 minutes** and will only require a web browser.
+Otherwise, let's get started. You can skip to :ref:`step 2 <step2>`  if you already have an account. This should not take more than **2 minutes** and will only require a web browser.
 
 Goals
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
 
 The goal of this tutorial is to help you sign up for an account and create your first messaging service. This tutorial will show you:
 
@@ -24,7 +24,7 @@ Step 1: Sign up for Solace PubSub+ Cloud
 To sign up for Solace PubSub+ Cloud, `click here <https://cloud.solace.com/signup/>`_ to create a **free** account. Click on the following video to view an example of
 signing up.
 
-.. image:: ../img/signup.jpeg
+.. image:: ../img/signup_2019.jpg
 
 Once you have submitted your details, you will receive a confirmation email. By clicking the Activate button in the email, you will be brought to the Solace PubsSub+ Cloud Console
 where you must enter a password to activate your Solace PubSub+ Cloud account. Once activated, you will be automatically logged into the console.
@@ -33,7 +33,7 @@ where you must enter a password to activate your Solace PubSub+ Cloud account. O
 
     <img src="../_static/img/activation-email.jpeg" style="max-width:350px;"/>
 
-.. _`step 2`:
+.. _step2:
 
 Step 2: Create a messaging service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -82,8 +82,7 @@ library. From here, you can explore more about your client library using the lin
 
 
 Step 4: Learn more
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+~~~~~~~~~~~~~~~~~~
 Well done. You've now signed up and created your first messaging service. Want to learn more?
 
 * Try exchanging some messages with your new messaging service with this next quick start :doc:`trying your messaging service <ggs_tryme>`.
