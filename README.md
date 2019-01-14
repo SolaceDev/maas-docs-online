@@ -1,29 +1,15 @@
 # maas-docs-online
-Solace Cloud Public Documentations
+Solace Cloud Public Documentations for the Learn Centre
 
 
-## To Get Build the docs
+## Building the site
 
-You must have Python 2.7 and Virtual Env install on your machine
+Please follow the insturtions in [Getting Started Section](Contributing.md)
 
-*  Go to docs directory and run the following:
 
-`$ cd docs`
+## Resources
+* [Style Guide for Sphinx-based docs](https://media.readthedocs.org/pdf/documentation-style-guide-sphinx/latest/documentation-style-guide-sphinx.pdf)
+  
 
-`$ virtualenv _venv`
-
-`$ source ./_venv/bin/activate`
-
-* Install Python dependencies
-
-`$ pip install -r ./requirements.txt`
-
-* Generate the docs
-
-`$ make html`
-
-`$ open ./_build/html/index.html` 
-
-* For Auto load, go to docs and:
-
-`$ sphinx-autobuild . ./_build/html`
+## Notes
+This project is using version **1.7.9** of Sphinx. Version **1.8.x** had a number of issues and to avoid uncessary debugging sessions, we fixed the version to **1.7.9**, in the hopes of revisiting this issue in **2.0.x** which is under development now.
