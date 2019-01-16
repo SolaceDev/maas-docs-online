@@ -51,8 +51,8 @@ To see these steps in action, watch the following video.
 
 .. raw:: html
 
-	<video class="video" width="768" height="480" muted onclick="this.paused ? this.play() : this.pause();"  style="max-width: 700px;" controls>
-		<source src="../_static/video/createservice.webm">
+	<video class="video" width="768" height="480"  style="max-width: 700px;" muted controls>
+		<source src="../_static/video/createservice.mp4" type="video/mp4">
 	</video>
 
 Step 3: Find your messaging service's connection information
