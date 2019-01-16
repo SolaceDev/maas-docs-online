@@ -7,9 +7,9 @@ Goals
 ~~~~~
 The goal of this tutorial is to demonstrate the most basic messaging interaction using Solace messaging. This tutorial will show you:
 
-1. How to connect a publisher and a subscriber.
-2. How to subscribe to a topic.
-3. How to publish a matching message.
+* How to connect a publisher and a subscriber.
+* How to subscribe to a topic.
+* How to publish a matching message.
 
 Step 1: Go to Try Me! tab
 ~~~~~~~~~~~~~~~~~~~~~~~~~
