@@ -11,7 +11,7 @@ The following PubSub+ Cloud plans are DMR enabled:
 - Giga
 - Tera
 
-The messaging service created by PubSub+ Cloud is DMR enabled. A DMR cluster is automatically configured on the PubSub+ Broker and enabled within the message VPN. The password
+A DMR cluster is automatically configured on the PubSub+ Broker and enabled within the message VPN. The password
 for cluster communication is stored in PubSub+ Cloud and available from the **Status** tab on the service details page, along with all other relevant DMR cluster
 information.
 
