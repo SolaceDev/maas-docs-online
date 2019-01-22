@@ -1,5 +1,5 @@
 Creating Your First Messaging Service
-=====================================
+======================================
 
 To start integrating your applications with Solace PubSub+ Cloud, you must first create a messaging service. Once your messaging service is created, you can connect your applications with it
 by using a client library compatible with the Solace PubSub+ message broker. This getting started tutorial will walk you through creating an account on Solace PubSub+ Cloud,
@@ -24,14 +24,19 @@ Step 1: Sign up for Solace PubSub+ Cloud
 To sign up for Solace PubSub+ Cloud, `click here <https://cloud.solace.com/signup/>`_ to create a **free** account. Click on the following video to view an example of
 signing up.
 
-.. image:: ../img/signup_2019.jpg
-
-Once you have submitted your details, you will receive a confirmation email. By clicking the Activate button in the email, you will be brought to the Solace PubsSub+ Cloud Console
-where you must enter a password to activate your Solace PubSub+ Cloud account. Once activated, you will be automatically logged into the console.
 
 .. raw:: html
 
-    <img src="../_static/img/activation-email.jpeg" style="max-width:350px;"/>
+    <video width="768" height="480" muted poster="../_static/img/signup_new.jpg" onclick="this.paused ? this.play() : this.pause();" style="cursor: pointer;">
+        <source src="../_static/video/signup_new.webm">
+    </video>
+
+Once you have submitted your details, you will receive a confirmation email. By clicking the Activate button in the email, your PubSub+ Cloud account will be activated and
+you will be directed into the PubSub+ Cloud Console.
+
+.. raw:: html
+
+    <img src="../_static/img/activation-email-new.jpeg" style="max-width:350px;"/>
 
 .. _step2:
 
