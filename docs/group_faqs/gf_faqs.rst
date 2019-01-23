@@ -1,12 +1,9 @@
 Frequently Answered Questions
 =============================
 
-Q: How do I get access to enterprise plans?
+Q: How can I get access to bigger plans such as Enterprise Mega and Giga?
 
-A: On the PubSub+ Cloud `Create Service <https://console.solace.cloud/services/create>`_ page, in Step 1, select the enterprise plan you want to use. Step 2 will display a contact form. Get in touch with a Solace representative and we'll get you set up.
-
-.. image:: ../img/faqs_enterprise_access_1.png
-   :target: https://console.solace.cloud/services/create
+A: If you signed up for free on `our website <https://cloud.solace.com>`_ you will be using a Basic account which only has access to the Free, Nano and Kilo plans. In order to use the bigger plans, such as Enterprise Mega and Giga, you must upgrade to an Enterprise account. To do this please `contact us <https://console.solace.cloud/support>`_.
 
 
 Q: What are plans in Solace PubSub+ cloud?
@@ -54,6 +51,7 @@ and use on-demand to cover any overages, for new applications or for those appli
 Q: What's the advantage to having a subscription?
 
 A: Prepaid Subscriptions provide you a discount in return for a longer-term commitment and help you minimize your invoicing overhead.
+
 
 Q: What clouds and regions are available?
 
