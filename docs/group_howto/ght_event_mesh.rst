@@ -90,5 +90,5 @@ and receive the messages in another where you have a matching subscription. Foll
 
 .. image:: ../img/eventmesh14.jpg
 
-Congratulations, you have realized your Event Mesh. To see it in action, use the :doc:`Try Me tab <../group_howto/ght_event_mesh.rst>` in PubSub+ Cloud to create a subscription in one messaging service, publish
+Congratulations, you have realized your Event Mesh. To see it in action, use the :doc:`Try Me tab <../group_getting_started/ggs_tryme>` in PubSub+ Cloud to create a subscription in one messaging service, publish
 from another messaging service and see your message dynamically forward from one messaging service to the other.

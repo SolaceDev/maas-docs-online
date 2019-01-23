@@ -1,5 +1,5 @@
 How to Pick the Right Service Plans for Your Needs
-================================================
+===================================================
 
 The single most important factor to consider when picking a service plan is the maximum number of connections your applications may need. This is the upper limit on the number of clients that can connect to your messaging service at the same time. It also indicates how many queues and topic-endpoints you can associate with your messaging service.
 

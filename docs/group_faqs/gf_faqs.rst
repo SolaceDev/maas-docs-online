@@ -78,3 +78,31 @@ Select the regions you want to request, enter any specific notes about your requ
 .. image:: ../img/RequestARegionWindow.png
 
 Our Production Engineering team will contact you shortly.
+
+Q: Can I deploy PubSub+ Cloud messaging services in my own VPC?
+
+A: Yes, we can setup a private datacenter for your organization that will create PubSub+ Cloud messaging services in your own VPC.
+To set this up, you can contact Solace PubSub+ Cloud support and our Production Engineering team will contact you shortly.
+
+Q: What are the advantages and disadvantages of deploying PubSub+ Cloud messaging services in my own VPC?
+
+A: The advantages to using your own VPC are:
+
+* All messaging traffic can be private
+* Can achieve the best performance and latency for messaging access
+* Can receive the lowest IaaS costs for network data usage
+
+The advantages of using the PubSub+ Cloud regions are:
+
+* Simpler to start up a service
+* No local setup or installation required
+* No management of your own cloud resource thresholds required
+
+Q: What are the benefits of using PubSub+ Cloud over running the PubSub+ Broker myself?
+
+A: PubSub+ Cloud messaging services are fully managed by Solace and come with many advantages, including:
+
+* Start up a messaging service anywhere in the world immediately with the press of a button
+* Carefully engineered PubSub+ Broker deployment for the different clouds to achieve optimal speed and resiliency
+* Fully managed, lossless upgrades
+* 24x7 support
