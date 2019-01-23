@@ -4,7 +4,7 @@ Solace Cloud Public Documentations for the Learn Centre
 
 ## Building the site
 
-Please follow the insturtions in [Getting Started Section](CONTRIBUTING.md)
+Please follow the instructions in [Getting Started Section](CONTRIBUTING.md)
 
 
 ## Resources
