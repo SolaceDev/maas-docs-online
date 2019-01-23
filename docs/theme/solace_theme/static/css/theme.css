@@ -5107,7 +5107,7 @@ code.code-large, .rst-content tt.code-large {
   top: 80px;
   bottom: 0;
   left: 0;
-  padding-bottom: 2em;
+  padding-bottom: 100px;
   width: 380px;
   overflow-x: hidden;
   overflow-y: hidden;
