@@ -4,13 +4,13 @@ How to determine the right username and password to use to access the service
 Selecting the right set of credentials to access your service depends on what you want to accomplish:
 
 * Connect to the service as a messaging client, or
-* Administer the Service details
+* Managing the service details
 
 ================================================
 Connecting to your service as a messaging client
 ================================================
 
-Solace Cloud configures a default set of client credentials when a service is created.  
+PubSub+ Cloud configures a default set of client credentials when a service is created.  
 The client username and password can be found in the *Service Details* page under the *Connect* Tab.
 Clicking on any one of the messaging protocol tiles will expand the tile and reveal the client username 
 and password to be used to connect to the service with that messaging protocol (Under the heading 'Connection Details'):
@@ -27,19 +27,16 @@ Example::
   msgvpn-8cpgdixxxht
 
 ===========================
-Administering your service
+Managing your service
 ===========================
 
-Basic service administration can be performed from the Solace Cloud console requiring only 
-your Solace Cloud credentials.  
+Basic service administration can be performed from the PubSub+ Cloud console. You will need to use the service 'management' user credentials to access external tools, which allow deeper service administration capabilities.
 
-You will need to use the service 'administrator' user credentials to access external tools which allow deeper service administration capabilities.
-
-The service administrator username and password can be found in the *Service Details* page uner the *Management* tab.  Simply click on 
+The management username and password can be found in the *Service Details* page uner the *Management* tab.  Simply click on 
 any of the following tiles to reveal the service administrator username and password for respective tool:
 
 * SEMP REST API  
-* PubSub+ Manager application
+* PubSub+ Cloud Manager application
 * SolAdmin Desktop application
 
 Example::
