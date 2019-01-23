@@ -44,10 +44,10 @@ The easiest way to learn about Solace PubSub+ Cloud is to create a messaging ser
 
    group_concepts/*
 
-.. _faqs:
+.. _resources:
 .. toctree::
    :maxdepth: 2
-   :caption: FAQs
+   :caption: RESOURCES
    :glob:
 
    group_faqs/*
