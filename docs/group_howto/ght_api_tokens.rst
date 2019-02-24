@@ -1,5 +1,5 @@
-API Tokens
-===========================
+How to Manage API Tokens
+========================
 
 You need an API token to authenticate and authorize REST requests made to PubSub+ Cloud's REST API. 
 When creating an API token, you will configure what permissions it has (i.e., a subset of the permissions you have when you log in to PubSub+ Cloud).
@@ -42,7 +42,7 @@ Note: A token's permissions cannot be modified once it is created. You can simpl
 
 
 Deleting an API Token
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 To Delete a token: 
 

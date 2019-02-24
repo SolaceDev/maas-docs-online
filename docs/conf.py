@@ -39,6 +39,7 @@ release = u'1.0'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+  'sphinx_copybutton'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -168,3 +169,7 @@ texinfo_documents = [
      author, 'SolaceCloudGettingStarted', 'One line description of project.',
      'Miscellaneous'),
 ]
+
+def setup(app):
+    app.add_stylesheet('css/custom.css')
+

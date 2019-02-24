@@ -1,0 +1,9 @@
+/* Copy buttons */
+a.copybtn {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 1.5em;
+    height: 1.5em;
+    padding: .3em;
+}
