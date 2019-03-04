@@ -1,5 +1,5 @@
-How to Use the Solace Cloud REST API
-====================================
+How to Use the Solace Cloud REST API to Manage Services
+=======================================================
 
 If you’re familiar with developing and deploying in a cloud environment, a common practice is to bring up a cloud resource using a cloud provider’s APIs, use that resource, then remove it when you are done. This is all accomplished programmatically, avoiding the need to start or stop the resources manually using the cloud provider’s user interface.
 
@@ -12,12 +12,14 @@ For example, a common flow for testing an app would be to:
 Solace PubSub+ Cloud has introduced REST APIs and REST API token support (in beta). This means developers can use Solace Cloud’s REST APIs to create PubSub+ Cloud messaging services and extract information about them programmatically.
 
 In this blog post, I’ll show you how you can:
+
 1. Grab an API token from Solace Cloud using your account
 2. Use that API token to create a messaging service via Solace Cloud’s REST APIs
 3. Use the REST APIs to pull out the MQTT connection details for the new messaging service (which could be used in your apps to send/receive MQTT messages)
 
 Assumptions:
-* You know what REST is and kind of know how to send REST requests using your favorite tool. If not, 
+
+* You know what REST is and kind of know how to send REST requests using your favorite tool.
 
 But if you don’t, `check out this REST intro <https://www.restapitutorial.com/lessons/whatisrest.html>`_ and then come back.
 
@@ -39,7 +41,7 @@ Create an API Token
 
 You need an API token to authenticate and authorize REST requests. When creating an API token, you will configure what permissions it has (i.e., a subset of the permissions you have when you log in to Solace Cloud)
 
-1. Login in to Solace Cloud
+1. Log in to Solace Cloud
 2. Click on your name in the right side of the menu bar to navigate to Token Management.
 
 .. image:: ../img/use_api_tokens_1.jpg
@@ -65,15 +67,15 @@ You need an API token to authenticate and authorize REST requests. When creating
 
   a. Set the Postman Environment to **Solace PubSub+ Cloud** -- look in the drop down in the upper left part of the Postman window.
 
-.. image:: ../img/use_api_tokens_4.jpg
+  .. image:: ../img/use_api_tokens_4.jpg
 
-b. Edit the Solace PubSub+ Cloud environment and set the token by clicking on eye icon next to the environment drop down. Then click Edit next to **Solace PubSub+ Environment**.
+  b. Edit the Solace PubSub+ Cloud environment and set the token by clicking on eye icon next to the environment drop down. Then click Edit next to **Solace PubSub+ Environment**.
 
-.. image:: ../img/use_api_tokens_5.jpg
+  .. image:: ../img/use_api_tokens_5.jpg
 
-c. Paste the token in the value field of the **apiToken** key and then click Update.
+  c. Paste the token in the value field of the **apiToken** key and then click Update.
 
-.. image:: ../img/use_api_tokens_6.jpg
+  .. image:: ../img/use_api_tokens_6.jpg
 
 **Great!** Now we have a token, and Postman is set up to use it!
 
