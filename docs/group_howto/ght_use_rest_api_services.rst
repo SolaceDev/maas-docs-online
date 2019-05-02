@@ -73,8 +73,8 @@ You need an API token to authenticate and authorize REST requests. When creating
 
   .. image:: ../img/use_api_tokens_5.jpg
 
-  c. Paste the token in the value field of the **apiToken** key and then click Update.
-
+  c. Paste the token in the value field of the **apiToken** key. You must also select a service type and service class. For a free service, set the **serviceTypeId** to **free** and the **serviceClassId** to **free** as well. Once all the values are entered, click Update.
+  
   .. image:: ../img/use_api_tokens_6.jpg
 
 **Great!** Now we have a token, and Postman is set up to use it!
@@ -99,6 +99,7 @@ You should see a JSON response confirming that a messaging service was created.
 Now go back to Solace Cloud and you should see your service.
 
 .. image:: ../img/use_api_tokens_9.jpg
+   :target: https://console.solace.cloud/api-tokens
 
 Awesome! You have just created a messaging service.
 
