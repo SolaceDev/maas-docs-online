@@ -11,10 +11,10 @@ The goal of this tutorial is to demonstrate how to create a queue and confirm th
 * How to map a topic to a queue
 * How to publish a message a queue
 
-Step 1: Go to Management tab
+Step 1: Go to Manage tab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To access the Management tab, follow the steps below.
+To access the Manage tab, follow the steps below.
 
 1. Go to your messaging services page by selecting Services from the top navigation bar.
 2. Select your messaging service to navigate to messaging service details.
@@ -22,7 +22,7 @@ To access the Management tab, follow the steps below.
 
 .. image:: ../img/ggs_queue_mgmt_menu.png
 
-4. You will then see the Management tab which provides access to tools for managing your messaging service.
+4. You will then see the Manage tab which provides access to tools for managing your messaging service.
 
 .. image:: ../img/ggs_queue_mgmt_window.png
 
@@ -30,11 +30,11 @@ To access the Management tab, follow the steps below.
 Step 2: Create a Queue using the Queue management window
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-From the Management tab you can open the Queue management window where you can work with queues in your messaging service.
+From the Manage tab you can open the Queue management window where you can work with queues in your messaging service.
 
 To create a queue, follow the steps below.
 
-1. Click on the **Queues** tile on the Management tab. This will open the Queue management window in a new browser tab.
+1. Click on the **Queues** tile on the Manage tab. This will open the Queue management window in a new browser tab.
 
 .. image:: ../img/ggs_queue_mgmt_tile.png
 

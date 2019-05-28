@@ -1,7 +1,7 @@
 How to Increase Your Capacity or Number of Services
 ====================================================
 
-The number of plans you can create is limited by the service limits set in your organization. For example, free users are only able to create free service plans. For enterprise users, your organization is limited in the number of services that can be created. These limits can be changed upon request.
+The number of services you can create is limited by the service limits set in your organization. Users with Basic accounts without credit card billing set up are only able to create Free service types. For Basic account users with credit card billing enabled or Enterprise users, your organization is limited in the number of services that can be created. These limits can be changed upon request.
 
 
 Requesting a Service Limit Increase from PubSub+ Cloud Console
@@ -11,12 +11,10 @@ Requesting a Service Limit Increase from PubSub+ Cloud Console
 
 2. Click Account on the top menu, and the Service Limits tab under Account Details
 
-.. image:: ../img/ght_nav_manage_service_limits.jpg
-   :target: https://console.solace.cloud/account-details/service-limits
-
 3. On the service limit table, you can click on "Request Service Increase" for each plan of interest.
 
-.. image:: ../img/ght_request_service_increase.jpg
+.. image:: ../img/ght_nav_manage_service_limits.png
+:target: https://console.solace.cloud/account-details/service-limits
 
 4. A dialog box will then show up, you may then specify the number of services you require, and any comments in the details of the request.
 Click on "Send Request".

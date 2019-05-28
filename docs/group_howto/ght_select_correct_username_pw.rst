@@ -32,7 +32,7 @@ Managing your service
 
 Basic service administration can be performed from the PubSub+ Cloud console. You will need to use the service 'management' user credentials to access external tools, which allow deeper service administration capabilities.
 
-The management username and password can be found in the *Service Details* page uner the *Management* tab.  Simply click on 
+The management username and password can be found in the *Service Details* page under the *Manage* tab.  Simply click on
 any of the following tiles to reveal the service administrator username and password for respective tool:
 
 * SEMP REST API  

@@ -21,7 +21,7 @@ The goal of this tutorial is to help you sign up for an account and create your 
 Step 1: Sign up for Solace PubSub+ Cloud
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To sign up for Solace PubSub+ Cloud, `click here <https://cloud.solace.com/signup/>`_ to create a **free** account. Click on the following video to view an example of
+To sign up for Solace PubSub+ Cloud, `click here <https://solace.com/try-it-now/>`_ to create a **Standard** account. Click on the following video to view an example of
 signing up.
 
 
@@ -46,8 +46,8 @@ Step 2: Create a messaging service
 Once you have logged into the console, you will be brought to the My Services page. This page will show you all of the various messaging services you have created in Solace PubSub+ Cloud. To create your first messaging service, follow the steps below.
 
 1. Press the Create Service button.
-2. You must then select a **plan type**, enter a **service name**, and choose the **cloud provider and region** where you would like to create your messaging service.
-3. For your first messaging service, select the **Free Plan** or **Nano** depending on your account setup. Solace PubSub+ Cloud gives you access to different plan types that will give various levels of messaging performance. By default, a new Solace PubSub+ Cloud account only has access to the free plan. Later on, you may request access to additional plans by selecting them and pressing the request access button.
+2. You must then select a **service type**, choose the **cloud provider and region** where you would like to create your messaging service, and enter a **service name**.
+3. For your first messaging service, select the **Free** or **Developer** service type depending on your account setup. Solace PubSub+ Cloud gives you access to different service types that will give various levels of messaging performance. By default, a new Solace PubSub+ Cloud account only has access to the Free service type. Later on, you may request access to additional service types by selecting them and pressing the request access button.
 4. Enter a messaging service name of **My First Service**. Messaging services are identified in the console by their name.
 5. Press on the map and choose one of Solace PubSub+ Cloud's available providers and regions. If the region you prefer isn't available, you can contact Solace PubSub+ Cloud support and ask for your region to be supported. For your first messaging service, choose the region closest to where your application will run.
 6. You can then complete the process by pressing the Start Service button.
@@ -56,7 +56,7 @@ To see these steps in action, watch the following video.
 
 .. raw:: html
 
-	<video class="video" width="768" height="480"  style="max-width: 700px;" muted controls>
+	<video class="video" width="768" height="360"  style="max-width: 700px;" muted controls>
 		<source src="../_static/video/createservice.mp4" type="video/mp4">
 	</video>
 
@@ -69,10 +69,10 @@ cloud, but once it is, you will see the status of your messaging service. The op
 - **Status**: View the overall status and health of your messaging service.
 - **Connect**: Find the connection information for your messaging service by selecting your language or protocol of choice.
 - **Manage**: Find the management options for your messaging service to perform tasks such as configuring queues or managing clients.
-- **Plan Details**: View the details of the plan you created your messaging service with such as the cloud provider, region, and connection limits.
+- **Configuration**: View the details of the messaging service you created, such as the cloud provider, region, and connection limits.
 - **Try Me!**: Try your messaging service out using applications embedded from CodePen examples that allow you to publish and subscribe for messages on your messaging service.
 
-.. image:: ../img/service-detail.jpeg
+.. image:: ../img/service-detail.png
 
 Go to the Connect tab and choose the messaging protocol your application will be using. If you're not sure, you can also change the View By option to Language which allows you
 to browse by the language your client application is written in. Select the client library you would like to use and the required connection information can be viewed for that

@@ -12,11 +12,11 @@ API Documentation
 Using CURL
 ~~~~~~~~~~
 
-- `Using SEMP V2 with cURL <https://cloud.solace.com/samples/solace-samples-semp/curl/>`_
+- `Using SEMP V2 with cURL <https://solace.com/samples/solace-samples-semp/curl/>`_
 
 Using Swagger Codegen
 ~~~~~~~~~~~~~~~~~~~~~
 
-- `Generating the client library for Java <https://cloud.solace.com/samples/solace-samples-semp/generate-semp-client-lib/>`_
-- `Using the generated Java client library <https://cloud.solace.com/samples/solace-samples-semp/java-client/>`_
+- `Generating the client library for Java <https://solace.com/samples/solace-samples-semp/generate-semp-client-lib/>`_
+- `Using the generated Java client library <https://solace.com/samples/solace-samples-semp/java-client/>`_
 

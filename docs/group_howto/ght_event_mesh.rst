@@ -17,8 +17,7 @@ With this release, you can:
 Creating an Event Mesh
 ----------------------
 
-To create an Event Mesh, start by creating multiple enterprise messaging services to bridge together into an Event Mesh. Note that the messaging service must use a plan type of
-Kilo, Mega, Giga or Tera else it will not be eligible for Dynamic Message Routing and not be able to be used in an Event Mesh. After you have your messaging services, you can begin creating an Event Mesh.
+To create an Event Mesh, start by creating multiple enterprise messaging services to bridge together into an Event Mesh. Note that the messaging service can not be of the Free service type, else it will not be eligible for Dynamic Message Routing and not be able to be used in an Event Mesh. After you have your messaging services, you can begin creating an Event Mesh.
 Note that you only see datacenters on the Event Mesh map in which you have valid messaging services with DMR enabled.
 
 1. Navigate to the **Event Mesh** tab.

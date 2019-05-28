@@ -1,7 +1,7 @@
 PubSub+ Cloud HA Overview
 ============================
 
-PubSub+ Cloud offers plans which provides a PubSub+ Broker deployed in high-availability (HA) redundancy groups for fault
+PubSub+ Cloud offers service types which provide a PubSub+ Broker deployed in high-availability (HA) redundancy groups for fault
 tolerance.  HA redundancy provides 1:1 message broker sparing to increase overall service availability.  If one of the message
 brokers fails or is taken out of service, the other message broker automatically takes over and provides service to the clients
 that were previously served by the now-out-of-service message broker.
@@ -52,7 +52,10 @@ DNS entry for applications to use (behind a load balancer) abstracting away the 
 How to Create an HA Redundancy Group in PubSub+ Cloud
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Currently any dedicated tenancy plans in PubSub+ Cloud deploys an HA redundancy group by default.
+The following service types deploy an HA redundancy group by default:
+
+- Professional (Standard account)
+- Enterprise (Enterprise account)
 
 .. figure:: ../img/HA_Service_How_1.png
     :figwidth: 512px

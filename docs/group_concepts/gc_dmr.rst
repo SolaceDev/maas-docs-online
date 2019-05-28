@@ -4,12 +4,12 @@ Dynamic Message Routing in PubSub+ Cloud
 In PubSub+ Cloud, all enterprise messaging services are created with the Dynamic Message Routing (DMR) feature enabled. To learn more about DMR,
 check out `the official documentation in the Solace Tech Docs <https://docs.solace.com/Features/Dynamic-Msg-Routing.htm>`_.
 
-The following PubSub+ Cloud plans are DMR enabled:
+The following PubSub+ Cloud service types are DMR enabled:
 
-- Kilo
-- Mega
-- Giga
-- Tera
+- Starter (Standard account)
+- Professional (Standard account)
+- Developer (Enterprise account)
+- Enterprise (Enterprise account)
 
 A DMR cluster is automatically configured on the PubSub+ Broker and enabled within the message VPN. The password
 for cluster communication is stored in PubSub+ Cloud and available from the **Status** tab on the service details page, along with all other relevant DMR cluster

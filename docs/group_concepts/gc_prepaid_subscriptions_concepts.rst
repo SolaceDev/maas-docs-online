@@ -8,12 +8,12 @@ falling back to on-demand rates.
 Details
 ~~~~~~~
 Subscriptions are purchased for a set term, typically a year at a time (i.e. 12 months).
-At the beginning of every month, each active subscription is translated into the number of hours in the month for each given plan (for example, a month with 31 days translates to 744 hours).
+At the beginning of every month, each active subscription is translated into the number of hours in the month for each given service type (for example, a month with 31 days translates to 744 hours).
 
 Each PubSub+ Cloud messaging service uses hours while it is running, rounded up to the nearest hour.
 
-At the end of each month, the total number of service hours per plan are calculated.
-Each active subscription for the month reduces the total hours used of the respective plan and the remainder is charged at on-demand rates.
+At the end of each month, the total number of service hours per type are calculated.
+Each active subscription for the month reduces the total hours used of the respective service type and the remainder is charged at on-demand rates.
 
 Unused subscription service usage is not rolled over to the next month.
 
@@ -21,8 +21,8 @@ Example
 ~~~~~~~
 Assume that the following subscriptions were purchased, each with 6 months remaining in their term:
 
-- 2x kilo subscription
-- 1x mega subscription
+- 2x Enterprise (Kilo) subscription
+- 1x Enterprise (Mega) subscription
 
 This means for 6 months, the following usage will be included without any extra cost per month:
 
@@ -31,9 +31,9 @@ This means for 6 months, the following usage will be included without any extra 
 
 Suppose in January, the following services were created:
 
-- 3x kilo services, each running for the entire month
-- 2x mega services, each running for half of the month
-- 1x giga service, running for 1 hour and 54 minutes
+- 3x Enterprise (Kilo) services, each running for the entire month
+- 2x Enterprise (Mega) services, each running for half of the month
+- 1x Enterprise (Giga) service, running for 1 hour and 54 minutes
 
 At the end of the month, the usage is as follows:
 

@@ -5,7 +5,7 @@ When establishing a secure connection to your messaging service, the client will
 
 Your messaging service uses a server certificate that is signed by a highly trusted public certificate authority and will be trusted in many environments (ex. browsers, Java Virtual Machine). For greater security, the client can also use a certificate to prove its identity. When the client connects, the server will validate that the certificate of the client is signed by a trusted certificate authority. This is called mutual or two-way authentication.
 
-Messaging services on Enterprise Plans (Kilo, Giga, Mega and Tera) support client-certificate based authentication. This tutorial will walk you through the steps of using client certificate authentication. It will use an MQTT client because MQTT is often used in IoT environments and client certificate authentication is common for IoT devices.
+Messaging services of the Enterprise service type support client-certificate based authentication. This tutorial will walk you through the steps of using client certificate authentication. It will use an MQTT client because MQTT is often used in IoT environments and client certificate authentication is common for IoT devices.
 
 While it is possible to use client certificates signed by a public certificate authority, organizations often set up a private certificate authority to issue client certificates. Certificates signed by a public certificate authority are expensive and are generally unnecessary. You only require a publicly signed certificate if you want to allow clients from the public to connect to your messaging service. That is typically not the case, so a private certificate authority is suitable. A private certificate authority is also potentially more secure, since the organization controls the entire certificate issuing process.
 
@@ -28,7 +28,7 @@ Prerequisites
 
 Before starting this tutorial make sure you have:
 
-* A messaging service on an Enterprise Plan (Kilo, Giga, Mega and Tera)
+* A messaging service of the Enterprise service type
 * OpenSSL tools installed
 * MQTT.fx tool installed
 
@@ -76,17 +76,14 @@ Step 3: Enable Client Certificate Authentication
 
 Now that we have a signed certificate for the client, we can enable client certificate authentication for our messaging service. By default, the messaging service has basic authentication enabled, which allows authentication using a username and password. We will leave this enabled so that the existing usernames and passwords for your service will still work.
 
-**Note:** You can only configure client certificate authentication for services on Enterprise Plans (Kilo, Giga, Mega and Tera).
+**Note:** You can only configure client certificate authentication for the following service types: Developer or Enterprise for Enterprise accounts, and Developer for Standard accounts.
 
 To enable client certificate authentication, follow the steps below.
 
 1. Go to your messaging services page by selecting Services from the top navigation bar.
 2. Select your messaging service to navigate to messaging service details.
-3. On the service details page, navigate to the **Management** tab.
-
-.. image:: ../img/ggs_queue_mgmt_menu.png
-
-4. Click on the **Authentication** tile. This tile will only appear for services on Enterprise plans.
+3. On the service details page, navigate to the **Manage** tab.
+4. Click on the **Authentication** tile.
 
 .. image:: ../img/ght_cert_authentication.png
 
@@ -102,27 +99,31 @@ Step 4: Upload the Certificate for the Private CA
 
 Now that we have enabled client certificate authentication, we need to make sure client certificates signed by our private CA are  trusted by the messaging service. To do that, we need upload the certificate from the private CA we created in step 1 to the list of certificates authorities trusted by our messaging service.
 
-**Note:** You can only configure new certicate authorities for services on Enterprise Plans (Kilo, Giga, Mega and Tera).
+**Note:** You can only configure new certificate authorities for the following service types: Developer or Enterprise for Enterprise accounts, and Developer for Standard accounts.
 
 To upload a certificate for a trusted certificate authority, follow the steps below.
 
-1. Navigate the **Certificate Authority** tab and click on **+ Certificate**. Note that the certificate for the public CA for our messaging service will already be listed as a trusted certificate authority. (This allows messaging services to securely connect to each other when enabling Dynamic Message Routing.)
+1. Click on the **Certificate Authority** tab under **Manage**.
+
+.. image:: ../img/ght_cert_authority.png
+
+2. Click on **Add New** to upload a new certificate authority. Note that the certificate for the public CA for our messaging service will already be listed as a trusted certificate authority. (This allows messaging services to securely connect to each other when enabling Dynamic Message Routing.)
 
 .. image:: ../img/ght_cert_addCA.png
 
-2. Enter a name for the CA certificate. The name cannot contains spaces or special characters.
+3. Enter a name for the CA certificate. The name cannot contains spaces or special characters.
 
 .. image:: ../img/ght_cert_CAname.png
 
-3. Open the public certificate (MyRootCaCert.pem) for the private CA created in step 1 in a text editor. Copy the all the text in the certificate file, including the BEGIN CERTIFICATE and END CERTIFICATE lines.
+4. Open the public certificate (MyRootCaCert.pem) for the private CA created in step 1 in a text editor. Copy the all the text in the certificate file, including the BEGIN CERTIFICATE and END CERTIFICATE lines.
 
 .. image:: ../img/ght_cert_CA_cert_text.png
 
-4. Paste the certificate text into the **Paste certificate here** text box in **Upload Certificate** dialog box.
+5. Paste the certificate text into the **Paste certificate here** text box in **Upload Certificate** dialog box.
 
 .. image:: ../img/ght_cert_pasted_cert.png
 
-5. Click on **Submit**. Once the certificate has been uploaded, click on **OK**.
+6. Click on **Submit**. Once the certificate has been uploaded, click on **OK**.
 
 .. image:: ../img/ght_cert_after_upload.png
 
