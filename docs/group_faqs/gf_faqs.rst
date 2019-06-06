@@ -8,14 +8,15 @@ In PubSub+ Cloud, you are provided with a list of service types to choose from. 
 
 For a Standard PubSub+ cloud account, the following types are available:
 
-* Free
-* Starter
-* Professional
+* Free (Shared Infrastructure)
+* Starter (Shared Infrastructure)
+* Professional (Dedicated Infrastructure)
 
 For an Enterprise PubSub+ cloud account, the following types are available:
 
-* Developer
-* Enterprise
+* Developer-Shared (Shared Infrastructure)
+* Developer (Dedicated Infrastrcuture)
+* Enterprise (Dedicated Infrastructure, Customizable scale)
 
 How can I get access to Enterprise service types?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
