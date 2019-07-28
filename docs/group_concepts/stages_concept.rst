@@ -17,7 +17,7 @@ Alpha is a limited-availability test before releases are cleared for more widesp
 Beta
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-At beta, products or features are ready for broader customer testing and use. Betas are often publicly announced. There are no SLAs or technical support obligations in a beta release unless otherwise specified in product terms or the terms of a particular beta program.
+At beta, products or features are ready for broader customer testing and use. Betas are often publicly announced. There are no SLAs or technical support obligations in a beta release unless otherwise specified in product terms or the terms of a particular beta program. Products will be complete from a feature perspective, but may have some open outstanding issues.
 
 General Availability
 ~~~~~~~~
@@ -29,3 +29,6 @@ Deprecated
 ~~~~~~~~~~
 
 Deprecated features are scheduled to be shut down and removed. Deprecation and shut down or removal timelines will be well communicated and customers are encouraged to contact support if deprecation will have an impact on their business.
+
+
+Above stages are specific to our SaaS application. For the detail on our software and hardware broker products, please check `here <https://solace.com/support/product-lifecycle-policy/>`_.
