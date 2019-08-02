@@ -47,7 +47,7 @@ Once you have logged into the console, you will be brought to the My Services pa
 
 1. Press the Create Service button.
 2. You must then select a **service type**, choose the **cloud provider and region** where you would like to create your messaging service, and enter a **service name**.
-3. For your first messaging service, select the **Free** or **Developer** service type depending on your account setup. Solace PubSub+ Cloud gives you access to different service types that will give various levels of messaging performance. By default, a new Solace PubSub+ Cloud account only has access to the Free service type. Later on, you may request access to additional service types by selecting them and pressing the request access button.
+3. For your first messaging service, select any available service type. Solace PubSub+ Cloud gives you access to different service types that will give various levels of messaging performance. Note that some of these services types may be inaccessible prior to configuring a billing method for your account. Later on, you may request access to additional service types by selecting them and pressing the request access button.
 4. Enter a messaging service name of **My First Service**. Messaging services are identified in the console by their name.
 5. Press on the map and choose one of Solace PubSub+ Cloud's available providers and regions. If the region you prefer isn't available, you can contact Solace PubSub+ Cloud support and ask for your region to be supported. For your first messaging service, choose the region closest to where your application will run.
 6. You can then complete the process by pressing the Start Service button.
@@ -59,6 +59,13 @@ To see these steps in action, watch the following video.
 	<video class="video" width="768" height="360"  style="max-width: 700px;" muted controls>
 		<source src="../_static/video/createservice.mp4" type="video/mp4">
 	</video>
+
+7. When creating a service on a dedicated infrastructure (see :doc:`the FAQ <../group_faqs/gf_faqs>` for a list), you will have the option to set the messaging VPN name, as shown below. This VPN name is the identifier used to connect to your service,
+and may include any of the following characters: alphanumeric, dashes, and underscores. To edit the system-generated VPN name, click on the pencil icon on the right of the VPN name text box and
+enter a valid VPN name.
+
+.. image:: ../img/create-service-vpn-name-default.png
+.. image:: ../img/create-service-vpn-name-custom.png
 
 Step 3: Find your messaging service's connection information
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
