@@ -3,14 +3,12 @@ Account Deletion
 
 You can now delete your account without asking help from Solace Cloud support. However, this feature is limited to standard accounts only.
 
-In the below image, under Account tab, the Advance Setting link is been added to provide option for deleting account.
+Under the Account tab, click on the Advanced Settings link to view the delete account button as shown below..
 
 .. figure:: ../img/delete_account_advanced_settings.png
 
-
-.. figure:: ../img/delete_account_popup.png
-
-After clicking the Delete Account button you would get a confirmation pop up which will inform you about all the impacts post deletion of your account.
+After clicking on the Delete Account button, a confirmation dialog will be displayed to provide you with an overview of the components of your Solace Cloud PubSub+ account that will be deleted.
+You will then be prompted to enter your password to confirm the deletion.
 
 .. figure:: ../img/delete_account_confirmation_popup.png
 
