@@ -12,8 +12,8 @@ You will then be prompted to enter your password to confirm the deletion.
 
 .. figure:: ../img/delete_account_confirmation_popup.png
 
-You would require to enter your password to ensure that it is an intentional deletion and voila, the account is deleted.
-
 .. figure:: ../img/delete_account_success_msg.png
 
-Once the account is deleted, all of your messaging services will be terminated, your outstanding bill will be emailed to you and your credit card would be charged as per the usage.
+Once the account is deleted, all of your messaging services will be terminated and you will be logged out of the system. Your outstanding bill will be emailed to you and your credit card would be charged.
+
+If you require further assistance after your account has been deleted, please contact our Support team.
