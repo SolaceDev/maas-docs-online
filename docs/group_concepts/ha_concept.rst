@@ -23,7 +23,7 @@ This requires three nodes each running the software message broker on three node
 
 - Primary node
 - Backup node
-- Monitoring node Where is the monitoring? Bla bla bla
+- Monitoring node
 
 The Primary and Backup nodes both run the PubSub+ Broker software under the messaging node role, while the Monitor Node runs
 it under the monitoring node role.  Each of their respective roles, is fixed by the configuration and never changes.
