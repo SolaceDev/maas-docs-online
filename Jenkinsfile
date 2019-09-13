@@ -1,5 +1,4 @@
 @Library(['maas-jenkins-library@master']) _
-
 pipeline {
     agent {
         kubernetes {
@@ -51,7 +50,7 @@ pipeline {
     }
 
     stages {
-        stage('Build') {
+        stage('Build Docker Image') {
             when {
                 expression { GIT_BRANCH.startsWith("PR-") }
             }
@@ -70,8 +69,7 @@ pipeline {
                 }
             }
         }
-//        868978040651.dkr.ecr.us-east-1.amazonaws.com/maas-docs-online:latest
-        stage('Deploy PR Environment') {
+        stage('Deploy PR') {
             when {
                 expression { GIT_BRANCH.startsWith("PR-") }
             }
@@ -80,18 +78,17 @@ pipeline {
                     container('jenkins-kubernetes-cli') {
                         dir("${workspace}") {
                             env.PR_NUM = env.GIT_BRANCH.minus("PR-")
-                            sh("kubectl get pods")
                             sh("""
-                                sed -i \"s|{{DEPLOYMENT_NAME}}|pr-${env.PR_NUM}-maas-docs|\"  pr-deploy.yml
-                                sed -i \"s|{{REPOSITORY}}|868978040651.dkr.ecr.us-east-1.amazonaws.com/maas-docs-online|\"  pr-deploy.yml
-                                sed -i \"s|{{TAG}}|${env.GIT_BRANCH}|\"  pr-deploy.yml
-                                sed -i \"s|{{SERVICE_NAME}}|service-pr-${env.PR_NUM}-maas-docs|\" pr-deploy.yml
-                                sed -i \"s|{{INGRESS_NAME}}|ingress-pr-${env.PR_NUM}-maas-docs|\" pr-deploy.yml
-                                sed -i \"s|{{HOST_NAME}}|pr${env.PR_NUM}.docs.jcorpuz.k8s.mymaas.net|\" pr-deploy.yml
+                                sed -i \"s|{{DEPLOYMENT_NAME}}|pr-${env.PR_NUM}-maas-docs|\"  scripts/pr-deploy.yml
+                                sed -i \"s|{{REPOSITORY}}|868978040651.dkr.ecr.us-east-1.amazonaws.com/maas-docs-online|\"  scripts/pr-deploy.yml
+                                sed -i \"s|{{TAG}}|${env.GIT_BRANCH}|\"  scripts/pr-deploy.yml
+                                sed -i \"s|{{SERVICE_NAME}}|service-pr-${env.PR_NUM}-maas-docs|\" scripts/pr-deploy.yml
+                                sed -i \"s|{{INGRESS_NAME}}|ingress-pr-${env.PR_NUM}-maas-docs|\" scripts/pr-deploy.yml
+                                sed -i \"s|{{HOST_NAME}}|pr${env.PR_NUM}.docs.jcorpuz.k8s.mymaas.net|\" scripts/pr-deploy.yml
                             """)
-                            sh("cat pr-deploy.yml")
-                            sh(script: "kubectl delete -f pr-deploy.yml", returnStatus: true)
-                            sh("kubectl apply -f pr-deploy.yml")
+                            sh("cat scripts/pr-deploy.yml")
+                            sh(script: "kubectl delete -f scripts/pr-deploy.yml", returnStatus: true)
+                            sh("kubectl apply -f scripts/pr-deploy.yml")
                         }
                     }
                 }

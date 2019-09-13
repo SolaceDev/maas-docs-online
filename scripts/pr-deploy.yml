@@ -38,10 +38,10 @@ spec:
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: {{INGRESS_NAME}} #varName Exact ingress-pr1-maas-docs
+  name: {{INGRESS_NAME}}
 spec:
   rules:
-  - host: {{HOST_NAME}} #pr.docs.jcorpuz.k8s.mymaas.net
+  - host: {{HOST_NAME}}
     http:
       paths:
       - backend:
