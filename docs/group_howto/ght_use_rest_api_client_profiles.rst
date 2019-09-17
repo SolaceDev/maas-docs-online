@@ -47,7 +47,7 @@ You need an API token to authenticate and authorize REST requests. When creating
 
 4. Give the Token a name and enable these permissions:
 
-  * Get Services
+  * Get Services (To retrieve the service's client profile details)
   * Get Service Requests
   * Create/Update/Delete Client Profiles
 
