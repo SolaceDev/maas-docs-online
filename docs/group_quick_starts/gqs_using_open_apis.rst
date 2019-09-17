@@ -53,4 +53,4 @@ OpenMAMA
 
 - `Samples <https://solace.com/samples/solace-samples-openmama/>`_
 - `Features <https://docs.solace.com/Open-APIs-Protocols/OMAMA-get-started.htm>`_
-- `Documentation <https://www.openmama.org/>`_
+- `Documentation <https://openmama.org/>`_
