@@ -19,7 +19,7 @@ What you'll need:
 
 * A Solace PubSub+ Cloud Account.
 * Administrator or Messaging Service Editor permissions for your account. 
-* A Solace PubSub+ Cloud service with.
+* A Solace PubSub+ Cloud service.
 * A way to send REST messages from your dev environment. Postman (6.1.3 or greater) is a good choice if you want a visual REST API Dev Tool.
 * Click this `link to import the Postman collection <https://documenter.getpostman.com/view/4953125/SVmtzzzk>`_ then hit the “Run in Postman” button.
 
