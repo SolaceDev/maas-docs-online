@@ -2,7 +2,7 @@ Dynamic Message Routing in PubSub+ Cloud
 ========================================
 
 In PubSub+ Cloud, all enterprise messaging services are created with the Dynamic Message Routing (DMR) feature enabled. To learn more about DMR,
-check out `the official documentation in the Solace Tech Docs <https://docs.solace.com/Features/Dynamic-Msg-Routing.htm>`_.
+check out `the official documentation in the Solace Tech Docs <https://docs.solace.com/Configuring-and-Managing/DMR.htm>`_.
 
 The following PubSub+ Cloud service types are DMR enabled:
 

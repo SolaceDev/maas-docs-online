@@ -46,7 +46,7 @@ To create a queue, follow the steps below.
 
 .. raw:: html
 
-    <img src="../_static/img/ggs_queue_name.png" style="max-width:600px;"/>
+    <img src="../_static/img/ggs_queue_name.png" alt="Queue Name Entry" style="max-width:600px;"/>
 
 
 4. When prompted to adjust the queue settings, click on **Apply** to accept all the default settings.
@@ -98,21 +98,21 @@ To publish a message to the queue, follow the steps below.
 
 .. raw:: html
 
-    <img src="../_static/img/tryMe_3.png" style="max-width:400px;"/>
+    <img src="../_static/img/tryMe_3.png" alt="Publisher Connect Button" style="max-width:400px;"/>
 
 
 3. Validate publisher connection.
 
 .. raw:: html
 
-    <img src="../_static/img/ggs_queue_pub_connect.png" style="max-width:400px;"/>
+    <img src="../_static/img/ggs_queue_pub_connect.png" alt="Validate Piblisher Button" style="max-width:400px;"/>
 
 
 4. Publish a message with **try-me** as the topic name under step 2 on the publisher CodePen.
 
 .. raw:: html
 
-    <img src="../_static/img/tryMe_7.png" style="max-width:400px;"/>
+    <img src="../_static/img/tryMe_7.png" alt="Publisher Publish Button" style="max-width:400px;"/>
 
 
 Step 5: Confirm message is in the queue
@@ -147,4 +147,4 @@ Well done. You've now created a queue in your messaging service and published a 
     * :doc:`Solace Messaging APIs <../group_quick_starts/gqs_using_messaging_apis>`.
     * :doc:`Open Messaging APIs <../group_quick_starts/gqs_using_open_apis>`.
 * Learn how to manage your messaging service with our :doc:`REST Management APIs <../group_quick_starts/gqs_using_management_apis>`.
-* Learn more about queues and `guaranteed messages <https://docs.solace.com/Features/Guaranteed-Messages.htm>`_.
+* Learn more about queues and `guaranteed messages <https://docs.solace.com/PubSub-Basics/Guaranteed-Messages.htm>`_.

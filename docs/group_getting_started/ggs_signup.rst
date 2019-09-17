@@ -36,7 +36,7 @@ you will be directed into the PubSub+ Cloud Console.
 
 .. raw:: html
 
-    <img src="../_static/img/activation-email-new.jpeg" style="max-width:350px;"/>
+    <img src="../_static/img/activation-email-new.jpeg" alt="PubSub+ Cloud Activate Button" style="max-width:350px;"/>
 
 .. _step2:
 
@@ -88,8 +88,8 @@ library. From here, you can explore more about your client library using the lin
 .. raw:: html
 
     <div style="padding-bottom:30px">
-	   <img src="../_static/img/connectivity_1.png" width="40%;" style="padding-right:40px;"></img>
-       <img src="../_static/img/connectivity_2.png" width="40%;"></img>
+	   <img src="../_static/img/connectivity_1.png" width="40%;" alt="Client Library Selection" style="padding-right:40px;"></img>
+       <img src="../_static/img/connectivity_2.png" width="40%;" alt="Solace Java Api Connection Information"></img>
 	</div>
 
 

@@ -7,7 +7,7 @@ brokers fails or is taken out of service, the other message broker automatically
 that were previously served by the now-out-of-service message broker.
 
 This section introduces HA concepts and network topologies supported in PubSub+ Cloud.
-The core underlying feature of an HA redundancy group can be found at `Redundancy and Fault Tolerance <https://docs.solace.com/Features/SW-Broker-Redundancy-and-Fault-Tolerance.htm>`_ .
+The core underlying feature of an HA redundancy group can be found at `Redundancy and Fault Tolerance <https://docs.solace.com/Overviews/SW-Broker-Redundancy-and-Fault-Tolerance.htm>`_ .
 
 PubSub+ Cloud automates this HA redundancy group setup, and makes it easy to use.
 

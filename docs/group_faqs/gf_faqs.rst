@@ -55,7 +55,7 @@ Prepaid Subscriptions provide you a discount in return for a longer-term commitm
 What clouds and regions are available?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This information is available at the bottom of our `pricing page <https://solace.com/cloud/pricing/>`_. We are always adding more clouds and regions based on demand. If you don't see a region that you need, please get in touch with us by using the `support page in our console <https://console.solace.cloud/support>`_.  If you don't yet have access to our console you can `sign up for free <https://cloud.solace.com/signup/>`_.
+This information is available at the bottom of our `pricing page <https://solace.com/cloud/pricing/>`_. We are always adding more clouds and regions based on demand. If you don't see a region that you need, please get in touch with us by using the `support page in our console <https://console.solace.cloud/support>`_.  If you don't yet have access to our console you can `sign up for free <https://solace.com/cloud/>`_.
 
 Why aren't all of the regions listed on the `pricing page <https://solace.com/cloud/pricing/>`_ available when I'm creating a service?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -2,7 +2,7 @@ Solace Messaging APIs
 =====================
 
 
-For open protocols, the Solace message broker readily communicates with third party APIs for that protocol, subject to any limitations. Consult `API Features <https://docs.solace.com/Features/Features-Intro.htm>`_ for detailed review of each messaging feature that the API supports.
+For open protocols, the Solace message broker readily communicates with third party APIs for that protocol, subject to any limitations. Consult `API Features <https://docs.solace.com/Configuration.htm>`_ for detailed review of each messaging feature that the API supports.
 
 Solace also provides APIs for our proprietary messaging API, SMF. See the list below to find the appropriate API for your use case.
 
@@ -35,7 +35,7 @@ Solace also provides APIs for our proprietary messaging API, SMF. See the list b
             <div class="card">
                 <img src="../_static/img/javascript-logo.png" alt="Javascript"></img>
                 <a target="_blank" href="https://solace.com/samples/solace-samples-javascript/">Samples</a>
-                <a target="_blank" href="https://dev.solace.com/tech/javascript-api/">Features</a>
+                <a target="_blank" href="https://docs.solace.com/Solace-PubSub-Messaging-APIs/JavaScript-API/js-home.htm">Features</a>
                 <a target="_blank" href="https://docs.solace.com/API-Developer-Online-Ref-Documentation/js/index.html">Documentation</a>
             </div>
             <div class="card">
