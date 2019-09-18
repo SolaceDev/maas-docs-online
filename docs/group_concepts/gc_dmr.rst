@@ -10,6 +10,7 @@ The following PubSub+ Cloud service types are DMR enabled:
 - Professional (Standard account)
 - Developer (Enterprise account)
 - Enterprise (Enterprise account)
+- theBezos (Unlimited account)
 
 A DMR cluster is automatically configured on the PubSub+ Broker and enabled within the message VPN. The password
 for cluster communication is stored in PubSub+ Cloud and available from the **Status** tab on the service details page, along with all other relevant DMR cluster
