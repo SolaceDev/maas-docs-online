@@ -1,0 +1,73 @@
+@Library(['maas-jenkins-library@master']) _
+
+pipeline {
+    agent {
+        kubernetes {
+            label "build-service-${UUID.randomUUID().toString().substring(0, 8)}"
+            yaml """
+      apiVersion: v1 
+      kind: Pod 
+      spec:
+        serviceAccountName: jenkins-deploy
+        containers: 
+          - name: jenkins-kubernetes-cli
+            image: dtzar/helm-kubectl:latest
+            command: ['cat']            
+            tty: true
+      """
+        }
+    }
+
+    triggers {
+        GenericTrigger(
+                genericVariables: [
+                        [key: 'prUrl', value: '$.pull_request.url',
+                         regexpFilterText: '$prUrl',
+                         regexpFilterExpression: 'maas-docs-online'],
+                        [key: 'prState', value: '$.action',
+                         regexpFilterText: '$prState',
+                         regexpFilterExpression: 'closed'],
+                        [key: 'prNumber', value: '$.number']
+                ],
+
+                causeString: 'Triggered on PR Close Event for maas-docs',
+                printContributedVariables: true,
+                printPostContent: true,
+                silentResponse: false,
+        )
+    }
+
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '10'))
+    }
+
+    stages {
+        stage('Undeploy PR Environment') {
+            steps {
+                script {
+                    container('jenkins-kubernetes-cli') {
+                        withCredentials([string(credentialsId: 'github-token-secret', variable: 'github_token')]) {
+                            sh("git clone https://github:${github_token}@github.com/SolaceDev/maas-docs-online.git --branch master --depth 1")
+                            sh("git checkout scripts/pr-deploy.yml")
+                            dir("${pwd()}/maas-docs-online") {
+                                sh("""
+                                sed -i \"s|{{DEPLOYMENT_NAME}}|pr-${prNumber}-maas-docs|\"  scripts/pr-deploy.yml
+                                sed -i \"s|{{REPOSITORY}}|868978040651.dkr.ecr.us-east-1.amazonaws.com/maas-docs-online|\"  scripts/pr-deploy.yml
+                                sed -i \"s|{{TAG}}|PR-${prNumber}|\"  scripts/pr-deploy.yml
+                                sed -i \"s|{{SERVICE_NAME}}|service-pr-${prNumber}-maas-docs|\" scripts/pr-deploy.yml
+                                sed -i \"s|{{INGRESS_NAME}}|ingress-pr-${prNumber}-maas-docs|\" scripts/pr-deploy.yml
+                                sed -i \"s|{{HOST_NAME}}|pr${prNumber}.maas-docs-online.k8s.mymaas.net|\" scripts/pr-deploy.yml
+                                """)
+                                sh("cat scripts/pr-deploy.yml")
+                                sh(script: "kubectl delete -f scripts/pr-deploy.yml", returnStatus: true)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+

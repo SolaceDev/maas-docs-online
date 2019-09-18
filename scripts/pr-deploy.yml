@@ -1,0 +1,50 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: {{DEPLOYMENT_NAME}} #prTest
+  labels:
+    app: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: {{DEPLOYMENT_NAME}}
+        image: {{REPOSITORY}}:{{TAG}}
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{SERVICE_NAME}}
+  labels:
+    app: nginx
+spec:
+  ports:
+  - port: 80
+    name: web
+  clusterIP: None
+  selector:
+    app: nginx
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{INGRESS_NAME}}
+spec:
+  rules:
+  - host: {{HOST_NAME}}
+    http:
+      paths:
+      - backend:
+          serviceName: {{SERVICE_NAME}}
+          servicePort: 80
+
