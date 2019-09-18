@@ -5,7 +5,7 @@ We're continually adding learning material to make it easier for you to adopt an
 
 Udemy Courses
 --------------
-- `Fundamentals of Solace Development <https://www.udemy.com/course/fundamentals-of-solace-development/ >`_ : The course provides an overview of the various Open Protocols and languages Solace supports,  and the concepts behind messaging with Solace. Topics covered include connecting your application to Solace, multi-protocol support, message exchange patterns, and how they relate to applications. 
+- `Fundamentals of Solace Development <https://www.udemy.com/fundamentals-of-solace-development/>`_ : The course provides an overview of the various Open Protocols and languages Solace supports,  and the concepts behind messaging with Solace. Topics covered include connecting your application to Solace, multi-protocol support, message exchange patterns, and how they relate to applications. 
 
 On Github
 ------------------
