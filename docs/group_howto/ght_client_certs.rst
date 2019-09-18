@@ -237,4 +237,4 @@ Congratulations! You've done a lot in this tutorial. You created a private certi
     * :doc:`Solace Messaging APIs <../group_quick_starts/gqs_using_messaging_apis>`.
     * :doc:`Open Messaging APIs <../group_quick_starts/gqs_using_open_apis>`.
 * Learn how to manage your messaging service with our :doc:`REST Management APIs <../group_quick_starts/gqs_using_management_apis>`.
-* Learn more about `client authentication <hhttps://docs.solace.com/Configuring-and-Managing/Client-Authentication.htm>`_.
+* Learn more about `client authentication <https://docs.solace.com/Configuring-and-Managing/Client-Authentication.htm>`_.
