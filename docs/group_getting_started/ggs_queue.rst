@@ -105,7 +105,7 @@ To publish a message to the queue, follow the steps below.
 
 .. raw:: html
 
-    <img src="../_static/img/ggs_queue_pub_connect.png" alt="Validate Piblisher Button" style="max-width:400px;"/>
+    <img src="../_static/img/ggs_queue_pub_connect.png" alt="Validate Publisher Button" style="max-width:400px;"/>
 
 
 4. Publish a message with **try-me** as the topic name under step 2 on the publisher CodePen.
