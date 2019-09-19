@@ -40,13 +40,13 @@ To connect publisher and subscriber, follow the steps below.
 
 .. raw:: html
 
-    <img src="../_static/img/tryMe_3.png" style="max-width:400px;"/>
+    <img src="../_static/img/tryMe_3.png" alt="Publisher Connect Button" style="max-width:400px;"/>
 
 2. Click on the connect button under step 1 on the subscriber CodePen.
 
 .. raw:: html
 
-    <img src="../_static/img/tryMe_4.png" style="max-width:400px;"/>
+    <img src="../_static/img/tryMe_4.png" alt="Subscriber Connect Button" style="max-width:400px;"/>
 
 3. Validate publisher and subscriber connection.
 
@@ -57,11 +57,11 @@ To connect publisher and subscriber, follow the steps below.
 Step 3: Subscribe to a topic
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Subscribe to the **try-me** topic under step 2 on the subscriber window. You can also try other topics if you like. `Click here <https://docs.solace.com/Features/Topic-Support-and-Syntax.htm>`_  to learn more about topics.
+Subscribe to the **try-me** topic under step 2 on the subscriber window. You can also try other topics if you like. `Click here <https://docs.solace.com/PubSub-Basics/Topic-Support-and-Syntax.htm>`_  to learn more about topics.
 
 .. raw:: html
 
-    <img src="../_static/img/tryMe_6.png" style="max-width:400px;"/>
+    <img src="../_static/img/tryMe_6.png" alt="Subscriber Subscribed to Topic try-me" style="max-width:400px;"/>
 
 Step 4: Publish a matching message
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -70,7 +70,7 @@ Publish a message with **try-me** as the topic name under step 2 on the publishe
 
 .. raw:: html
 
-    <img src="../_static/img/tryMe_7.png" style="max-width:400px;"/>
+    <img src="../_static/img/tryMe_7.png" alt="Publisher Published Message with Topic try-me" style="max-width:400px;"/>
 
 You should see that the message has been sent on you publisher and received by your CodePen.
 
@@ -85,4 +85,4 @@ Well done. You've now exchanged with your messaging service. Want to learn more?
     * :doc:`Solace Messaging APIs <../group_quick_starts/gqs_using_messaging_apis>`.
     * :doc:`Open Messaging APIs <../group_quick_starts/gqs_using_open_apis>`.
 * Learn how to manage your messaging service with our :doc:`REST Management APIs <../group_quick_starts/gqs_using_management_apis>`.
-* Learn more about `topic hierarchy <https://docs.solace.com/Features/Topic-Support-and-Syntax.htm>`_.
+* Learn more about `topic hierarchy <https://docs.solace.com/PubSub-Basics/Topic-Support-and-Syntax.htm>`_.

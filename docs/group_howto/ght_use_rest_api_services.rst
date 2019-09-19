@@ -26,7 +26,7 @@ But if you don’t, `check out this REST intro <https://www.restapitutorial.com/
 Setup
 ~~~~~
 
-* `Sign up for Solace Cloud <https://cloud.solace.com/signup/>`_ if you haven’t already -- don’t worry, it’s free.
+* `Sign up for Solace Cloud <https://solace.com/cloud/>`_ if you haven’t already -- don’t worry, it’s free.
 * You need a way to send REST messages from your dev environment. Postman (6.1.3 or greater) is a good choice if you want a visual REST API Dev Tool
 * Click this `link to import the Postman collection <https://documenter.getpostman.com/view/3081638/RWM8SWza>`_ then hit the “Run in Postman” button.
 

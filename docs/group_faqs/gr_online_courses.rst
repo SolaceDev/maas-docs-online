@@ -14,5 +14,5 @@ On Github
 Online References
 ------------------
 - `Technical Docs <https://docs.solace.com/>`_: Entry point to all technical references
-- `Messaging Basics <https://docs.solace.com/Messaging-Basics/Messaging-Basics.htm>`_: A good place to start with, to better understand messaging basics
-- `Features <https://docs.solace.com/Features/Features-Intro.htm>`_: List of basic and advanced features
+- `Messaging Basics <https://docs.solace.com/PubSub-Basics/Basics.htm>`_: A good place to start with, to better understand messaging basics
+- `Features <https://docs.solace.com/Configuration.htm>`_: List of basic and advanced features

@@ -7,7 +7,7 @@ MQTT
 ----
 
 - `Samples <https://cloud.solace.com/samples/solace-samples-mqtt/>`__
-- `Features <https://dev.solace.com/tech/mqtt/>`__
+- `Features <https://docs.solace.com/Open-APIs-Protocols/MQTT/MQTT-get-started.htm>`__
 - `Documentation <https://www.eclipse.org/paho/>`__
 
 
@@ -53,4 +53,4 @@ OpenMAMA
 
 - `Samples <https://solace.com/samples/solace-samples-openmama/>`_
 - `Features <https://docs.solace.com/Open-APIs-Protocols/OMAMA-get-started.htm>`_
-- `Documentation <https://openmama.org>`_
+- `Documentation <https://openmama.org/>`_
