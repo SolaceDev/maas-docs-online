@@ -7,7 +7,7 @@ SEMPv2
 API Documentation
 ~~~~~~~~~~~~~~~~~
 
-- `Documentation <https://docs.solace.com/API-Developer-Online-Ref-Documentation/swagger-ui/index.html>`_
+- `Documentation <https://docs.solace.com/SEMP/Using-SEMP.htm>`_
 
 Using CURL
 ~~~~~~~~~~
