@@ -7,11 +7,11 @@ The number of services you can create is limited by the service limits set in yo
 Requesting a Service Limit Increase from PubSub+ Cloud Console
 ---------------------------------------------------------------
 
-1. Login into `Solace Cloud <https://console.solace.cloud/login>`_ 
+1. Login into `Solace Cloud <https://console.solace.cloud/login>`_
 
 2. Click Account on the top menu, and the Service Limits tab under Account Details
 
-3. On the service limit table, you can click on "Request Service Increase" for each plan of interest.
+3. On the service limit table, you can click on "Request Service Increase" for each service type of interest.
 
 .. image:: ../img/ght_nav_manage_service_limits.png
 :target: https://console.solace.cloud/account-details/service-limits
