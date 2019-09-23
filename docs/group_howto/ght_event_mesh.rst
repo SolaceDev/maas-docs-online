@@ -57,7 +57,7 @@ and receive the messages in another where you have a matching subscription. Foll
 
 .. image:: ../img/eventmesh7.jpg
 
-3. Navigate to the **Dynamic Message Routing** view in the main side menu, click on the **Cluster** in the list and select the **Links** tab.
+3. Navigate to the **Clustering** view in the main side menu and select the **External Links** tab.
 
 .. image:: ../img/eventmesh7.jpg
 
@@ -65,7 +65,7 @@ and receive the messages in another where you have a matching subscription. Foll
 
 .. image:: ../img/eventmesh8.jpg
 
-5. In the **Where to Connect To** section, choose the **Solace Cloud** button, enter your **Username** and **Password** for PubSub+ Cloud and press the **Configure Message VPN** button.
+5. In the **Where to Connect To** section, choose the **Solace Cloud** button, enter your **Username** and **Password** for PubSub+ Cloud and press the **Configure DMR Bridge** button.
 
 .. image:: ../img/eventmesh9.jpg
 
@@ -73,21 +73,17 @@ and receive the messages in another where you have a matching subscription. Foll
 
 .. image:: ../img/eventmesh10.jpg
 
-7. Now you need the required cluster passwords to continue. Return back to the PubSub+ Cloud application. Open up the remote messaging service in the **Event Mesh** view and expand the **Cluster Details**. Take note of the **Cluster Password**.
-
-.. image:: ../img/eventmesh12.jpg
-
-8. Open up the local messaging service in the **Event Mesh** view and expand the **Cluster Details**. Take note of the **Cluster Password**.
+7. From the **Remote Message Service Connection** tab, choose the **Local** button and set the **Authentication Scheme** to **Basic**. The other fields will already be filled.
 
 .. image:: ../img/eventmesh11.jpg
 
-9. Enter the **Remote and Local Cluster Passwords** as noted in the previous steps. Select the switch to enable TLS. Add a common name equal to the hostname of your remote messaging service. You can find the hostname in the **Connect** tab of your service details.
+8. Select the switch to enable TLS. Then, add a Trusted Common Name identical to the hostname of your remote messaging service. You can find the hostname in the **Connect** tab of your service details.
+
+.. image:: ../img/eventmesh12.jpg
+
+9. Finish setting up your link. This will result in a DMR bridge being created between your messaging services. Continue the steps between the other messaging services you want to partake in your Event Mesh.
 
 .. image:: ../img/eventmesh13.jpg
-
-10. Finish setting up your link. This will result in a DMR bridge being created between your messaging services. Continue the steps between the other messaging services you want to partake in your Event Mesh.
-
-.. image:: ../img/eventmesh14.jpg
 
 Congratulations, you have realized your Event Mesh. To see it in action, use the :doc:`Try Me tab <../group_getting_started/ggs_tryme>` in PubSub+ Cloud to create a subscription in one messaging service, publish
 from another messaging service and see your message dynamically forward from one messaging service to the other.
