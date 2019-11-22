@@ -7,7 +7,7 @@ If you are an enterprise customer, you may have Solace PubSub+ Cloud set up to h
 
 Steps Required
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In order to accomplish this, you will need to 
+In order to accomplish this, you will need to configure both your Azure Cloud accou t and Solace PubSub+ Cloud account.
   1. :ref:`Setup the resource group in Azure account and <azuresetup>`
     * :ref:`Create the resource groups needed for new messaging services.<azuresetup>`
     * :ref:`Configure them so Solace App can access them.<azuresetup>`
@@ -266,7 +266,11 @@ Now let’s retrieve user details.
 
 In the Postman Collection “*Resource Group Management For Private Datacenters*”, select the request “**Query for a list resource group for a datacenter**”. Press send.
 
-You should be able to see the details of the user. 
+You should be able to see a list of pagnated resource group.  Parameter status can be passed in to query for specific state of resource groups.
+
+-         can be of 'available' or 'used'  
+
+
 
 Get list of all resource group that are available
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
