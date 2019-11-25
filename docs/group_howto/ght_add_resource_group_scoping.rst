@@ -1,7 +1,7 @@
 How to Add New Azure Resource Group for New Messaging Services in Private Azure Cloud
 ====================================================
 
-Why
+Background
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 If you are an enterprise customer, you may have Solace PubSub+ Cloud set up to have a private accessed Solace datacenter within your own Azure subscription. To ensure that Solace datacenter’s access to resources within your subscription is restricted, Solace App can be resource group scoped by custom roles. Any new service you wish to create by Solace App needs to have their corresponding resource group created by your explicitly.
 
@@ -262,31 +262,17 @@ Awesome! You have just registered a resource group.  Now you may want query all 
 Get list of all resource group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Now let’s retrieve user details. 
+Now let’s see a list of all resource group for a datacenter.  You will need to know your datacenterId for this operation.
 
 In the Postman Collection “*Resource Group Management For Private Datacenters*”, select the request “**Query for a list resource group for a datacenter**”. Press send.
 
 You should be able to see a list of pagnated resource group.  Parameter status can be passed in to query for specific state of resource groups.
 
--         can be of 'available' or 'used'  
+-status=available         see all resource groups has not yet been assigned to a service. 
+-status=used              see only resource groups that has not been assigned to a service.
 
 
-
-Get list of all resource group that are available
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Now we may want to see only resource groups that has not been assigned to a service.
-
-In the Postman Collection “*Resource Group Management For Private Datacenters*”, select the request “**Query for all available resource groups**”. Press send.
-
-Get list of all resource group that has been used
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Now we may want to see all resource groups has not yet been assigned to a service.
-
-In the Postman Collection “*Resource Group Management For Private Datacenters*”, select the request “**Query all used up resource groups**”. Press send.
-
-Delete a User
+Delete a Resource Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Now if we have incorrectly added a resource group and it has not been used by a service yet, we may want to clean up. 
