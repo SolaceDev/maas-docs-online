@@ -3,18 +3,18 @@ How to Add New Azure Resource Group for New Messaging Services in Private Azure 
 
 Background
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-If you are an enterprise customer, you may have Solace PubSub+ Cloud set up to have a private accessed Solace datacenter within your own Azure subscription. To ensure that Solace datacenter’s access to resources within your subscription is restricted, Solace App can be resource group scoped by custom roles. Any new service you wish to create by Solace App needs to have their corresponding resource group created by your explicitly.
+If you are an enterprise customer, you may have Solace PubSub+ Cloud configured to use a private access Solace datacenter within your own Azure subscription. To ensure that Solace datacenter’s access to resources within your subscription is restricted, Solace App can be resource group scoped. For any new broker you wish to create via Solace Console, you need to explicitly  create the corresponding broker resource group and role assignment.
 
 Steps Required
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In order to accomplish this, you will need to configure both your Azure Cloud accou t and Solace PubSub+ Cloud account.
+In order to accomplish this, you will need to configure both your Azure Cloud account and Solace PubSub+ Cloud account.
   1. :ref:`Setup the resource group in Azure account and <azuresetup>`
     * :ref:`Create the resource groups needed for new messaging services.<azuresetup>`
     * :ref:`Configure them so Solace App can access them.<azuresetup>`
   2. :ref:`Register the newly added resource group with Solace PubSub+ Cloud.<solacesetup>`
 
     * Register the resource groups in PubSub+ Cloud so services will now use them. 
-    * Query for a ist of resource groups that are used by services
+    * Query for a list of resource groups that are used by services
     * Query for a list of available resource groups registered with PubSub+ Cloud 
 
 Assumptions
@@ -22,7 +22,7 @@ Assumptions
 The tutorial assumes you  
 
 * have azure cli knowledge and owner permission to create resource groups and role assignment
-* know what REST is and kind of know how to send REST requests using your favorite tool. But it's okay if you don’t. `Check out this REST intro <https://www.restapitutorial.com/lessons/whatisrest.html>`_ and then come back.
+* familiar with REST and ability to send REST requests using your favorite tool. It's okay if you don’t. `Check out this REST intro <https://www.restapitutorial.com/lessons/whatisrest.html>`_ and then come back.
 
 What you'll need:
 
@@ -289,4 +289,12 @@ If you don’t have Postman installed when you hit “Run in Postman”, it will
 If you prefer using CURL, the Postman link above provides the sample CURL commands.
 
 
+Creating a Message Broker
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The moment you've all been waiting for. If you have succesfully completed the azure portion and then succesfully registered the resource group with Solace, you can now create message brokers!  
+
+This is now done as it normally is via the Solace Console or REST calls to the Solace API.
+
+Note: Each broker within that datacenter will use up a resource group that you have created and registered. If you run out of resource groups, more will need to be created and registered.
 
