@@ -13,7 +13,7 @@ A non resource group scoped datacenter is given roles scoped at a subscription l
 This may be undesireable if the subscription contains resources unrelated to Solace. This is the problem addressed by resource group scoped datacenters at the cost of decreased ease-of-use.
 
 A private Azure Datacenter that is resource group scoped will  
-* deploy a messaging service to only resource group that you give Solace Datacenter access to via custom roles
+* deploy a messaging service to only the resource groups that you give Solace access to.
 * restrict Solace Datacenter's access to only the resource groups that you have scoped Solace Application's role to.
 * ensure Solace Datacenter cannot create new resource group modify any non Solace Datacenter resources within the Azure tenant or subscription
 
