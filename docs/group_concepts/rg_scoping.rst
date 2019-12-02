@@ -7,7 +7,7 @@ Some customers use resource groups for security policies which is a second use c
 
 To understand the benefit of resource group scoped private datacenters it is important to understand some high-level concepts about how a private datacenter operates:
 
-A private datacenter lives inside your tenant. It requires certain permissions to Azure resources so that it can manage message brokers on your behalf. This neccesitates the creation of an application registration with proper roles assigned to give the app access to various Azure resources such as VMs, subnets, etc. The datacenter then uses this application registration to perform deployments neccesary for creation, update, deletion of brokers.
+A private datacenter lives inside your subscription. To successfully orchestrate service, It requires certain permissions to Azure resources so that it can manage message brokers on your behalf. This necessitates the creation of an application registration with proper roles assigned to give the app access to various Azure resources such as VMs, subnets, etc. The datacenter then uses this application registration to perform deployments necessary for creation, update, deletion of brokers.
 
 A non resource group scoped datacenter is given roles scoped at a subscription level giving the application the permission to modify all relevant resources within the subscription. 
 This may be undesireable if the subscription contains resources unrelated to Solace. This is the problem addressed by resource group scoped datacenters at the cost of decreased ease-of-use.
