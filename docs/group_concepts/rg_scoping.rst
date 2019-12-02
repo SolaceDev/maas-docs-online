@@ -2,7 +2,7 @@ Azure Resource Group Scoped Private Datacenter
 ========================================
 
 In PubSub+ Cloud, you need to determine which datacenter will be used to manage your new messaging service broker. These datacenters are either public or private and located on different clouds, ie AWS, GCZ, or Azure.  Private datacenters cannot be used by any other organizations whereas pubic datacenter can be shared between many organzations.  
-For Public Azure Cloud, any time you create a new message broker, Solace will first allocate a new resource group and then deploy the message broker's infrastrcuture within the resource group. Deletion of resource group occurs on deletion of the message broker.
+In Azure, any time you create a new message broker, Solace will first allocate a new resource group following the best practice for resource containment within Azure resource groups. Then Solace will deploy the message broker's infrastructure within the resource group. Deletion of resource group occurs on deletion of the message broker.
 If you are a Enterprise customer with applications in Azure Cloud, you may want a private Azure datacenter in your own tenat. This allows you to set your own policies and security protocols.  For further security, you may be interested in a resource group scoped private data center.
 
 To understand the benefit of resource group scoped private datacenters it is important to understand some high-level concepts about how a private datacenter operates:
