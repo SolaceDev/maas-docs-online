@@ -32,8 +32,8 @@ What you'll need:
 * A Solace PubSub+ Cloud Enterprise Account. As only Enterprise Accounts support multiple users, these REST endpoints cannot be used otherwise. 
 * Administrator permissions for your account. 
 * You need a way to send REST messages from your dev environment. Postman (6.1.3 or greater) is a good choice if you want a visual REST API Dev Tool
-* Click this `link to import the Postman collection <https://documenter.getpostman.com/view/3728825/SW7bzRnP>`_ then hit the “Run in Postman” button.
-
+* Click this `link to View the Postman collection <https://documenter.getpostman.com/view/3728825/SW7bzRnP>`_ then hit the “Run in Postman” button.
+  * Note that if you prefer to use curl, jQuery, PHP, Python, Ruby or others, you can also view the corresponding examples under the `collection <https://documenter.getpostman.com/view/3728825/SW7bzRnP>` by selecting the language of your choice in the right hand side pane.
 
 .. _azuresetup:
 
