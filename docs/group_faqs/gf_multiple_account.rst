@@ -18,9 +18,9 @@ Login
 ~~~~~
 The same credentials are used to login to all accounts in Solace PubSub+ Cloud Console. After successful login, a user that belongs to more than one account is prompted to select which account to be login to. If the user belongs to only one account, it will be directed to the console.
 
-.. raw:: html
+.. image:: <img src="../_static/img/login.png" alt="Solace PubSub+ Cloud Console Login" style="max-width:350px;"/>
 
-    <img src="../_static/img/todo.jpeg" alt="Solace PubSub+ Cloud Console Multiple Account Login" style="max-width:350px;"/>
+.. image:: <img src="../_static/img/login_multi_account_select.png" alt="Solace PubSub+ Cloud Console Multiple Account Login" style="max-width:350px;"/>
 
 Switching Between Accounts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -28,4 +28,4 @@ While signed in, a user can view and switch between their accounts using the Pro
 
 .. raw:: html
 
-    <img src="../_static/img/todo.jpeg" alt="Solace PubSub+ Cloud Console Multiple Account Login" style="max-width:350px;"/>
+    <img src="../_static/img/multi_account_switch.jpeg" alt="Solace PubSub+ Cloud Console Multiple Account Switch" style="max-width:350px;"/>
