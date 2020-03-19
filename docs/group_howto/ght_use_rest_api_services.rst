@@ -65,7 +65,7 @@ You need an API token to authenticate and authorize REST requests. When creating
 6. Copy the token to your clipboard by clicking the “Copy” button. **Note:** You will not see this again for security reasons. If you lose the token, you can always regenerate the token or create a new one.
 7. Set up Postman Collection Authorization – In order for Postman to send REST to Solace Cloud, you need to set the token you just created
 
-  a. Set the Postman Environment to **Solace PubSub+ Cloud** -- look in the drop down in the upper left part of the Postman window.
+  a. Set the Postman Environment `here <https://documenter.getpostman.com/view/3081638/RWM8SWza>`_ to **Solace PubSub+ Cloud** -- look in the drop down in the upper left part of the Postman window.
 
   .. image:: ../img/use_api_tokens_4.jpg
 
@@ -74,7 +74,7 @@ You need an API token to authenticate and authorize REST requests. When creating
   .. image:: ../img/use_api_tokens_5.jpg
 
   c. Paste the token in the value field of the **apiToken** key. You must also select a service type and service class. For a free service, set the **serviceTypeId** to **free** and the **serviceClassId** to **free** as well. Once all the values are entered, click Update.
-  
+
   .. image:: ../img/use_api_tokens_6.jpg
 
 **Great!** Now we have a token, and Postman is set up to use it!
@@ -86,7 +86,7 @@ Create a Messaging Service using the REST API
 
 Now that we have a token, we can use it call the service REST endpoint to create a messaging service.
 
-1. In the Postman Collection “*Solace Blogs – Create Messaging Service*”, select the request “**POST Create Messaging Service**”
+1. In the Postman Collection `here <https://documenter.getpostman.com/view/3081638/RWM8SWza>`_ “*Solace Blogs – Create Messaging Service*”, select the request “**POST Create Messaging Service**”
 
 .. image:: ../img/use_api_tokens_7.jpg
 
@@ -108,7 +108,7 @@ Get the Connection Details for the Messaging Service
 
 Now let’s retrieve the messaging service connection details. The Solace PubSub+ Cloud Messaging Service supports almost all of the messaging protocols under the sun! Let’s pick MQTT for the sake of this exercise, but this API provides you with all supported protocols.
 
-1. In the Postman Collection “*Solace PubSub+ Cloud – Create Messaging Services*”, select the request **Get Messaging Service**.
+1. In the Postman Collection `here <https://documenter.getpostman.com/view/3081638/RWM8SWza>`_ “*Solace PubSub+ Cloud – Create Messaging Services*”, select the request **Get Messaging Service**.
 
 .. image:: ../img/use_api_tokens_10.jpg
 

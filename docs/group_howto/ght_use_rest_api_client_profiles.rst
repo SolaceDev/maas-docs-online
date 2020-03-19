@@ -18,10 +18,10 @@ Setup
 What you'll need:
 
 * A Solace PubSub+ Cloud Account.
-* Administrator or Messaging Service Editor permissions for your account. 
+* Administrator or Messaging Service Editor permissions for your account.
 * A Solace PubSub+ Cloud service.
 * A way to send REST messages from your dev environment. Postman (6.1.3 or greater) is a good choice if you want a visual REST API Dev Tool.
-* Click this `link to import the Postman collection <https://documenter.getpostman.com/view/4953125/SVmtzzzk>`_ then hit the “Run in Postman” button.
+* Click this `link to import the Postman collection <https://documenter.getpostman.com/view/3081638/RWM8SWza>`_ then hit the “Run in Postman” button.
 
 Installing Postman
 ------------------
@@ -60,7 +60,7 @@ You need an API token to authenticate and authorize REST requests. When creating
 6. Copy the token to your clipboard by clicking the “Copy” button. **Note:** You will not see this again for security reasons. If you lose the token, you can always regenerate the token or create a new one.
 7. Set up Postman Collection Authorization – In order for Postman to send REST to Solace Cloud, you need to set the token you just created
 
-  a. Set the Postman Environment to **Solace PubSub+ Cloud** -- look in the drop down in the upper left part of the Postman window.
+  a. Set the Postman Environment `here <https://documenter.getpostman.com/view/3081638/RWM8SWza>`_ to **Solace PubSub+ Cloud** -- look in the drop down in the upper left part of the Postman window.
 
   .. image:: ../img/clientProfileApi_2.png
 
@@ -84,34 +84,34 @@ Create a Client Profile using the REST API
 
 Now that we have a token, we can use it call the REST endpoint to create a client profile.
 
-1. In the Postman Collection “*Solace Blogs – Solace Cloud Client Profile Management*”, select the request “**Create a Client Profile**”
+1. In the Postman Collection `here <https://documenter.getpostman.com/view/3081638/RWM8SWza>`_ “*Solace Blogs – Solace Cloud Client Profile Management*”, select the request “**Create a Client Profile**”
 
 .. image:: ../img/clientProfileApi_5.png
 
 2. Change the 'clientProfileName' field to the name you wish to give your client profile. The other properties can be changed to fit your needs. For more information on each setting, `see the Client Profile Configuration documentation <https://docs.solace.com/Configuring-and-Managing/Configuring-Client-Profiles.htm>`_
 
-.. image:: ../img/clientProfileApi_6.png 
+.. image:: ../img/clientProfileApi_6.png
 
 You should see a JSON response confirming that the request was accepted.
 
 The request shouldn't take more than a second or two. You can check the status of the request using the "**GET Service Request**" method in the postman collection. The requestId should be added to your environment for you already, so just press send!
 
-.. image:: ../img/clientProfileApi_7.png 
+.. image:: ../img/clientProfileApi_7.png
 
 Now that we see that our request is marked as 'completed', we can retrieve the created client profile from the API.
 
 Get Client Profile Details
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Now let’s retrieve the Client Profile. 
+Now let’s retrieve the Client Profile.
 
-1. In the Postman Collection “*Solace Blogs – Solace Cloud Client Profile Management*”, select the request “**Get Client Profile**”
+1. In the Postman Collection `here <https://documenter.getpostman.com/view/3081638/RWM8SWza>`_ “*Solace Blogs – Solace Cloud Client Profile Management*”, select the request “**Get Client Profile**”
 
-.. image:: ../img/clientProfileApi_8.png 
+.. image:: ../img/clientProfileApi_8.png
 
 2. The previous 'Create Client Profile' step should have already populated the required 'clientProfileName' variable in the path. Click on the Send button
 
-.. image:: ../img/clientProfileApi_9.png 
+.. image:: ../img/clientProfileApi_9.png
 
 You should be able to see the details of the client profile in the bottom panel.
 
@@ -120,22 +120,22 @@ Update a Client Profile
 
 Now that we've created and retrieved our client profile, we'll try changing some of its properties.
 
-1. In the Postman Collection “*Solace Blogs – Solace Cloud Client Profile Management*”, select the request “**Update a Client Profile**”
+1. In the Postman Collection `here <https://documenter.getpostman.com/view/3081638/RWM8SWza>`_ “*Solace Blogs – Solace Cloud Client Profile Management*”, select the request “**Update a Client Profile**”
 
-.. image:: ../img/clientProfileApi_10.png 
+.. image:: ../img/clientProfileApi_10.png
 
 2. In the body of the request, we can change 'allowGuaranteedMsgSendEnabled' and 'allowGuaranteedMsgReceiveEnabled' to false. the 'clientProfileName' property should line up with the name of the client profile you created earlier. This will update the client profile's existing properties when we send the request. Click on the Send button
 
-.. image:: ../img/clientProfileApi_11.png 
+.. image:: ../img/clientProfileApi_11.png
 
 In the JSON response, we can see that the request has been accepted, and we can see the new value for the properties we updated. Once the request is finished, we can see the new values in the client profile with the '**GET Client Profile**'.
 
 Delete a Client Profile
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Now that we've used our client profile to test out the APIs, we may want to clean up. 
+Now that we've used our client profile to test out the APIs, we may want to clean up.
 
-1. In the Postman Collection “*Solace Blogs – Solace Cloud Client Profile Management*”, select the request “**Delete a Client Profile**”
+1. In the Postman Collection `here <https://documenter.getpostman.com/view/3081638/RWM8SWza>`_ “*Solace Blogs – Solace Cloud Client Profile Management*”, select the request “**Delete a Client Profile**”
 
 .. image:: ../img/clientProfileApi_12.png
 
